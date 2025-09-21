@@ -1,0 +1,9 @@
+[2025-09-21 20:30:51] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-09-21 20:30:51] [main] INFO  scripts.BookingTest - ➡ Chọn địa điểm: Đà Lạt
+[2025-09-21 20:31:01] [main] INFO  scripts.BookingTest - ➡ Chọn phòng: Phòng mùa hè
+[2025-09-21 20:41:05] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-09-21 20:41:05] [main] INFO  scripts.BookingTest - ➡ Chọn địa điểm: Đà Lạt
+[2025-09-21 20:41:09] [main] INFO  scripts.BookingTest - ➡ Chọn phòng: Phòng mùa hè
+[2025-09-21 20:41:24] [main] INFO  scripts.BookingTest - ➡ Thực hiện login với email: blue299@gmail.com
+[2025-09-21 20:41:38] [main] INFO  scripts.BookingTest - ➡ Click đặt phòng
+[2025-09-21 20:42:13] [main] INFO  scripts.BookingTest - ✅ Kết quả booking: Thêm mới thành công!

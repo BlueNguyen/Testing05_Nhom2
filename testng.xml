@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--tổng quan và chứa toàn bộ dự án -->
+<suite name="AirBNB">
+<!--    tập hợp các listener sử dụng trong quá trình test  -->
+    <listeners>
+<!--        <listener class-name="listener.SimpleListeners"/>-->
+        <listener class-name="listener.ExtentReportListener"/>
+    </listeners>
+<!--    các script test được chạy trong quá trình test -->
+    <test name="BookingTests">
+<!--        class sẽ đại diện cho những script có test method-->
+        <classes>
+            <class name="scripts.BookingTest"/>
+        </classes>
+    </test>
+<!--    <test name="AddEmployeeTest">-->
+<!--        <classes>-->
+<!--            <class name="scripts.AddEmployeeTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
