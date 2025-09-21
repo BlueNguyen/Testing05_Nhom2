@@ -108,4 +108,18 @@ public class BookingPage {
         }
     }
 
+    // --- Verify kết quả ---
+    private By successMsg = By.xpath("//*[contains(text(),'Thêm mới thành công')]");
+
+    public String getSuccessMessage() {
+        try {
+            WebElement msgElement = wait.until(ExpectedConditions
+                    .visibilityOfElementLocated(successMsg));
+            return msgElement.getText();
+        } catch (Exception e) {
+            return "";
+        }
+    }
+
+
 }

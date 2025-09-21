@@ -1,9 +1,11 @@
 package scripts;
 
 import base.BaseTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.BookingPage;
 import pages.LoginPage;
+
 
 public class BookingTest extends BaseTest {
 
@@ -20,6 +22,11 @@ public class BookingTest extends BaseTest {
         loginPage.login("blue299@gmail.com", "blue299");
 
         bookingPage.clickBooking();
+
+        // ✅ Verify message "Thêm mới thành công"
+        String successMessage = bookingPage.getSuccessMessage();
+        Assert.assertTrue(successMessage.contains("Thêm mới thành công"),
+                "❌ Booking không thành công! Actual message: " + successMessage);
 
     }
 }
