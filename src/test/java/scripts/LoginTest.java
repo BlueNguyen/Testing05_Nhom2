@@ -1,55 +1,60 @@
 package scripts;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pages.LoginPage;
+import utils.ExcelReader;
 
 import java.time.Duration;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import static org.testng.Assert.assertTrue;
+public class LoginTest extends BaseTest {
+    private static final Logger logger = LogManager.getLogger(LoginTest.class);
 
-public class LoginTest {
-    WebDriver driver;
-    WebDriverWait wait;
+    @DataProvider(name = "loginDataCapStone")
+    public Object[][] loginDataCapStone() {
+        String filePath = "src/test/resources/loginDataCapStone.xlsx";
+        String sheetName = "Sheet1";
+        int rowCount = 6;
 
-    @BeforeMethod
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        Object[][] data = new Object[rowCount][3];
+        for (int i = 0; i < rowCount; i++) {
+            data[i][0] = ExcelReader.getCellData(filePath, sheetName, i + 1, 0);
+            data[i][1] = ExcelReader.getCellData(filePath, sheetName, i + 1, 1);
+            data[i][2] = ExcelReader.getCellData(filePath, sheetName, i + 1, 2);
+        }
+        return data;
     }
 
-    @Test
-    public void testValidLogin() {
-        // chờ input username xuất hiện
-        WebElement username = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("username")));
-        username.sendKeys("Admin");
 
-        WebElement password = driver.findElement(By.name("password"));
-        password.sendKeys("admin123");
+    @Test(dataProvider = "loginDataCapStone")
+    public void loginTest(String email, String password, String expectedResult) {
+        try {
+            logger.info("Đang test với email: {}", email);
+            logger.info("Đang test với password: {}", password);
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.login(email,password);
+            Thread.sleep(3000);
 
-        WebElement loginBtn = driver.findElement(By.xpath("//button[@type='submit']"));
-        loginBtn.click();
+            Boolean isLogged= false;
+            try{
+                driver.findElement(By.xpath("//span[normalize-space()='Đăng nhập thành công']"));
+                isLogged=true;
+            }catch (Exception e) {
+                isLogged = false;
+            } logger.info("Kết quả thực tế");
+            Assert.assertEquals(isLogged,Boolean.parseBoolean(expectedResult),"Sai kết quả mong muốn");
+//           System.out.println("Test pass");
+            logger.info("Test pass");
 
-        // chờ chữ "Dashboard"
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Dashboard']")));
 
-        assertTrue(driver.getPageSource().contains("Dashboard"));
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 }
