@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest {
     public Object[][] loginDataCapStone() {
         String filePath = "src/test/resources/loginDataCapStone.xlsx";
         String sheetName = "Sheet1";
-        int rowCount = 6;
+        int rowCount = 4;
 
         Object[][] data = new Object[rowCount][3];
         for (int i = 0; i < rowCount; i++) {
@@ -51,6 +51,50 @@ public class LoginTest extends BaseTest {
             Assert.assertEquals(isLogged,Boolean.parseBoolean(expectedResult),"Sai kết quả mong muốn");
 //           System.out.println("Test pass");
             logger.info("Test pass");
+
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+    @Test
+    public void testPasswordTooShort(){
+        try{
+            driver.get("https://demo4.cybersoft.edu.vn/");
+
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.openLoginForm();
+
+            driver.findElement(By.name("email")).sendKeys("quanghuy424@gmail.com");
+            driver.findElement(By.name("password")).sendKeys("123");
+
+            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+            String errorMsg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Mật khẩu quá ngắn')]")
+            )).getText();
+            Assert.assertTrue(errorMsg.contains("Mật khẩu quá ngắn"),
+                    "Không hiện thông báo khi nhập mật khẩu quá ngắn");
+
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+    @Test
+    public void testPasswordTooLong(){
+        try{
+            driver.get("https://demo4.cybersoft.edu.vn/");
+
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.openLoginForm();
+
+            driver.findElement(By.name("email")).sendKeys("quanghuy424@gmail.com");
+            driver.findElement(By.name("password")).sendKeys("123456789101112");
+
+            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+            String errorMsg = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Mật khẩu quá dài')]")
+            )).getText();
+            Assert.assertTrue(errorMsg.contains("Mật khẩu quá dài"),
+                    "Không hiện thông báo khi nhập mật khẩu quá dài");
 
 
         } catch (Exception e) {
