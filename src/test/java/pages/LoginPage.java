@@ -36,4 +36,16 @@ public class LoginPage {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
+    public void openRegisterWithLogin(){
+        // B1: mở popup login bằng icon avatar
+        By loginIcon = By.xpath("//button[img[contains(@src,'6596121.png')]]");
+        wait.until(ExpectedConditions.elementToBeClickable(loginIcon)).click();
+
+        By loginBtn = By.xpath("(//button[normalize-space()='Đăng nhập'])[1]");
+        wait.until(ExpectedConditions.elementToBeClickable(loginBtn)).click();
+
+        By registerBtn = By.xpath("//button[contains(@class,'bg-main') and normalize-space()='Đăng ký']");
+        wait.until(ExpectedConditions.elementToBeClickable(registerBtn)).click();
+
+    }
 }

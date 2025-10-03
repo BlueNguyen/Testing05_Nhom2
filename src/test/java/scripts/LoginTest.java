@@ -1,6 +1,7 @@
 package scripts;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -96,6 +97,52 @@ public class LoginTest extends BaseTest {
             Assert.assertTrue(errorMsg.contains("Mật khẩu quá dài"),
                     "Không hiện thông báo khi nhập mật khẩu quá dài");
 
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+    @Test
+    public void loginWithEnter(){
+        try{
+            driver.get("https://demo4.cybersoft.edu.vn/");
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.openLoginForm();
+
+            driver.findElement(By.name("email")).sendKeys("quanghuy424@gmail.com");
+            driver.findElement(By.name("password")).sendKeys("123"+ Keys.ENTER);
+
+            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+            Boolean isLogged = false;
+            try{
+                wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[normalize-space()='Đăng nhập thành công']")));
+                isLogged=true;
+
+            } catch (Exception e) {
+                isLogged=false;
+            }
+            Assert.assertTrue(isLogged, "Đăng nhập bằng phím Enter không thành công");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+    @Test
+    public void openRegisterWithLogin(){
+        try{
+            driver.get("https://demo4.cybersoft.edu.vn/");
+            LoginPage loginPage = new LoginPage(driver);
+            loginPage.openRegisterWithLogin();
+            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(3));
+
+            Boolean isRegisterPage = false;
+            try{
+                wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[normalize-space()='Đăng ký tài khoản Airbnb']")));
+                isRegisterPage=true;
+
+            } catch (Exception e) {
+                isRegisterPage=false;
+            }
+            Assert.assertTrue(isRegisterPage,"Chuyển hướng không thành công");
 
         } catch (Exception e) {
             throw new RuntimeException(e);
