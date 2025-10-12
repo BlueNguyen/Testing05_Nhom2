@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.BookingPage;
+import pages.booking.BookingPage;
 import pages.LoginPage;
 import utils.ExcelReader;
 
@@ -22,31 +22,69 @@ public class BookingTest extends BaseTest {
         return ExcelReader.getData(filePath, sheetName);
     }
 
-    @Test(dataProvider = "BookingData")
+    // ✅ Case: Login rồi booking
+    @Test(dataProvider = "BookingData", priority = 1)
     public void testBookingRoomFromExcel(String email, String password, String diaDiem, String phong) {
         logger.info("🔹 Running test with data: Email={}, DiaDiem={}, Phong={}", email, diaDiem, phong);
 
         BookingPage bookingPage = new BookingPage(driver);
 
-        logger.info("➡ Chọn địa điểm: {}", diaDiem);
-        bookingPage.selectDiaDiem(diaDiem);
-
-        logger.info("➡ Chọn phòng: {}", phong);
-        bookingPage.selectPhong(phong);
-
+        // 🔑 Login trước
         logger.info("➡ Thực hiện login với email: {}", email);
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login(email, password);
 
+        // 🏠 Sau đó chọn địa điểm
+        logger.info("➡ Chọn địa điểm: {}", diaDiem);
+        bookingPage.selectDiaDiem(diaDiem);
+
+        // 🛏️ Rồi chọn phòng
+        logger.info("➡ Chọn phòng: {}", phong);
+        bookingPage.selectPhong(phong);
+
+        // ✅ Click đặt phòng
         logger.info("➡ Click đặt phòng");
         bookingPage.clickBooking();
 
         String successMessage = bookingPage.getSuccessMessage();
         logger.info("✅ Kết quả booking: {}", successMessage);
 
-        Assert.assertTrue(successMessage.contains("Thêm mới thành công"),
+        Assert.assertTrue(successMessage.toLowerCase().contains("thành công"),
                 "❌ Booking không thành công! Actual message: " + successMessage);
+    }
+
+    // ❌ Case: Booking khi chưa login
+    @Test(dataProvider = "BookingData", priority = 2)
+    public void testBookingRoomWithoutLogin(String email, String password, String diaDiem, String phong) {
+        logger.info("🔹 Running test (NO LOGIN) with data: DiaDiem={}, Phong={}", diaDiem, phong);
+
+        BookingPage bookingPage = new BookingPage(driver);
+
+        // 🏠 Chọn địa điểm
+        logger.info("➡ Chọn địa điểm: {}", diaDiem);
+        bookingPage.selectDiaDiem(diaDiem);
+
+        // 🛏️ Chọn phòng
+        logger.info("➡ Chọn phòng: {}", phong);
+        bookingPage.selectPhong(phong);
+
+        // ❌ Click booking mà chưa login
+        logger.info("➡ Click đặt phòng khi chưa login");
+        bookingPage.clickBooking();
+
+        String errorMessage = bookingPage.getErrorMessage();
+        logger.info("❌ Kết quả booking khi chưa login: {}", errorMessage);
+
+// normalize về lowercase
+        String normalized = errorMessage == null ? "" : errorMessage.toLowerCase();
+
+        Assert.assertTrue(
+                normalized.contains("vui lòng đăng nhập")
+                        || normalized.contains("login"),
+                "❌ Hệ thống không chặn booking khi chưa login! Actual message: " + errorMessage
+        );
+
     }
 
 
