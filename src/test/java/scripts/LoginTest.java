@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.LoginPage;
+import pages.auth.LoginPage;
 import utils.ExcelReader;
 
 import java.time.Duration;
@@ -17,9 +17,9 @@ import org.apache.logging.log4j.Logger;
 public class LoginTest extends BaseTest {
     private static final Logger logger = LogManager.getLogger(LoginTest.class);
 
-    @DataProvider(name = "loginDataCapStone")
-    public Object[][] loginDataCapStone() {
-        String filePath = "src/test/resources/loginDataCapStone.xlsx";
+    @DataProvider(name = "testDataCapstone")
+    public Object[][] testDataCapstone() {
+        String filePath = "src/test/resources/testDataCapstone.xlsx";
         String sheetName = "Sheet1";
         int rowCount = 4;
 
@@ -33,7 +33,7 @@ public class LoginTest extends BaseTest {
     }
 
 
-    @Test(dataProvider = "loginDataCapStone")
+    @Test(dataProvider = "testDataCapstone")
     public void loginTest(String email, String password, String expectedResult) {
         try {
             logger.info("Đang test với email: {}", email);

@@ -241,3 +241,257 @@
 [2025-10-03 23:04:47] [main] INFO  scripts.LoginTest - Đang test với password: abc2222
 [2025-10-03 23:04:56] [main] INFO  scripts.LoginTest - Kết quả thực tế
 [2025-10-03 23:04:56] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:31:19] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail.com
+[2025-10-09 22:31:19] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-09 22:31:28] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:31:28] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:31:31] [main] INFO  scripts.LoginTest - Đang test với email: 
+[2025-10-09 22:31:31] [main] INFO  scripts.LoginTest - Đang test với password: 
+[2025-10-09 22:31:40] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:31:40] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:31:42] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail
+[2025-10-09 22:31:42] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-09 22:31:50] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:31:50] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:31:52] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy@gmail.com
+[2025-10-09 22:31:52] [main] INFO  scripts.LoginTest - Đang test với password: abc2222
+[2025-10-09 22:32:01] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:32:01] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:37:25] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail.com
+[2025-10-09 22:37:25] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-09 22:37:33] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:37:33] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:37:35] [main] INFO  scripts.LoginTest - Đang test với email: 
+[2025-10-09 22:37:35] [main] INFO  scripts.LoginTest - Đang test với password: 
+[2025-10-09 22:37:44] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:37:44] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:37:45] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail
+[2025-10-09 22:37:45] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-09 22:37:54] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:37:54] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-09 22:37:56] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy@gmail.com
+[2025-10-09 22:37:56] [main] INFO  scripts.LoginTest - Đang test với password: abc2222
+[2025-10-09 22:38:04] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-09 22:38:04] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-11 17:05:52] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail.com
+[2025-10-11 17:05:52] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-11 17:06:00] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-11 17:06:00] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-11 17:06:02] [main] INFO  scripts.LoginTest - Đang test với email: 
+[2025-10-11 17:06:02] [main] INFO  scripts.LoginTest - Đang test với password: 
+[2025-10-11 17:38:43] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 17:38:43] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 17:38:43] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 17:38:43] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 17:38:43] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 17:38:56] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 17:38:56] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 17:38:56] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 17:38:56] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 17:38:56] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 17:48:44] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 17:48:44] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 17:48:44] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 17:48:44] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 17:48:44] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 17:48:58] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 17:48:58] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 17:48:58] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 17:48:58] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 17:48:58] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 17:49:08] [main] INFO  scripts.RegisterTest - Name: huy@@
+[2025-10-11 17:49:08] [main] INFO  scripts.RegisterTest - Email: test3zz@gmail.com
+[2025-10-11 17:49:08] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 17:49:08] [main] INFO  scripts.RegisterTest - Phone: 0355482329
+[2025-10-11 17:49:08] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 17:49:10] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 17:49:10] [main] INFO  scripts.RegisterTest - Email: test4zz@gmail
+[2025-10-11 17:49:10] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 17:49:10] [main] INFO  scripts.RegisterTest - Phone: 0355482330
+[2025-10-11 17:49:10] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 17:53:21] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 17:53:21] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 17:53:21] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 17:53:21] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 17:53:21] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 17:53:34] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 17:53:34] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 17:53:34] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 17:53:34] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 17:53:34] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 17:58:58] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 17:58:58] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 17:58:58] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 17:58:58] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 17:58:58] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 17:59:13] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 17:59:13] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 17:59:13] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 17:59:13] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 17:59:13] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 18:04:59] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:04:59] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 18:04:59] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:04:59] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 18:04:59] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:05:05] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:05:07] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 18:05:07] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 18:05:07] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 18:05:07] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 18:05:07] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 18:05:12] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:05:14] [main] INFO  scripts.RegisterTest - Name: huy@@
+[2025-10-11 18:05:14] [main] INFO  scripts.RegisterTest - Email: test3zz@gmail.com
+[2025-10-11 18:05:14] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:05:14] [main] INFO  scripts.RegisterTest - Phone: 0355482329
+[2025-10-11 18:05:14] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:08:16] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:08:16] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 18:08:16] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:08:16] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 18:08:16] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:08:22] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:08:23] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 18:08:23] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 18:08:23] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 18:08:23] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 18:08:23] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 18:08:29] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:08:31] [main] INFO  scripts.RegisterTest - Name: huy@@
+[2025-10-11 18:08:31] [main] INFO  scripts.RegisterTest - Email: test3zz@gmail.com
+[2025-10-11 18:08:31] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:08:31] [main] INFO  scripts.RegisterTest - Phone: 0355482329
+[2025-10-11 18:08:31] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:08:36] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:08:38] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:08:38] [main] INFO  scripts.RegisterTest - Email: test4zz@gmail
+[2025-10-11 18:08:38] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:08:38] [main] INFO  scripts.RegisterTest - Phone: 0355482330
+[2025-10-11 18:08:38] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:08:44] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:08:46] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:08:46] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 18:08:46] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:08:46] [main] INFO  scripts.RegisterTest - Phone: 0355482331
+[2025-10-11 18:08:46] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2005
+[2025-10-11 18:08:52] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:20:02] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:20:02] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 18:20:02] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:20:02] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 18:20:02] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:20:08] [main] INFO  scripts.RegisterTest - Thông báo thực tế là Email 
+[2025-10-11 18:20:10] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 18:20:10] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 18:20:10] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 18:20:10] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 18:20:10] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 18:28:45] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:28:45] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 18:28:45] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:28:45] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-11 18:28:45] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:28:51] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email
+[2025-10-11 18:28:52] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-11 18:28:52] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-11 18:28:52] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-11 18:28:52] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-11 18:28:52] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-11 18:28:58] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Vui lòng không bỏ trống
+[2025-10-11 18:28:58] [main] INFO  scripts.RegisterTest -  Test passed 
+[2025-10-11 18:28:59] [main] INFO  scripts.RegisterTest - Name: huy@@
+[2025-10-11 18:28:59] [main] INFO  scripts.RegisterTest - Email: test3zz@gmail.com
+[2025-10-11 18:28:59] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:28:59] [main] INFO  scripts.RegisterTest - Phone: 0355482329
+[2025-10-11 18:28:59] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:29:05] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email
+[2025-10-11 18:29:07] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:29:07] [main] INFO  scripts.RegisterTest - Email: test4zz@gmail
+[2025-10-11 18:29:07] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:29:07] [main] INFO  scripts.RegisterTest - Phone: 0355482330
+[2025-10-11 18:29:07] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-11 18:29:13] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email
+[2025-10-11 18:29:15] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-11 18:29:15] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-11 18:29:15] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-11 18:29:15] [main] INFO  scripts.RegisterTest - Phone: 0355482331
+[2025-10-11 18:29:15] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2005
+[2025-10-11 18:29:21] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email
+[2025-10-13 13:56:02] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-13 13:56:02] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-13 13:56:02] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:56:02] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-13 13:56:02] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:56:08] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email
+[2025-10-13 13:56:10] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-13 13:56:10] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-13 13:56:10] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-13 13:56:10] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-13 13:56:10] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-13 13:56:15] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Vui lòng không bỏ trống
+[2025-10-13 13:56:15] [main] INFO  scripts.RegisterTest -  Test passed 
+[2025-10-13 13:56:17] [main] INFO  scripts.RegisterTest - Name: huy@@
+[2025-10-13 13:56:17] [main] INFO  scripts.RegisterTest - Email: test3zz@gmail.com
+[2025-10-13 13:56:17] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:56:17] [main] INFO  scripts.RegisterTest - Phone: 0355482329
+[2025-10-13 13:56:17] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:58:14] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-13 13:58:14] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-13 13:58:14] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:58:14] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-13 13:58:14] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:58:22] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-13 13:58:22] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-13 13:58:22] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-13 13:58:22] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-13 13:58:22] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-13 13:58:27] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Vui lòng không bỏ trống
+[2025-10-13 13:58:27] [main] INFO  scripts.RegisterTest -  Test passed 
+[2025-10-13 13:58:29] [main] INFO  scripts.RegisterTest - Name: huy@@
+[2025-10-13 13:58:29] [main] INFO  scripts.RegisterTest - Email: test3zz@gmail.com
+[2025-10-13 13:58:29] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:58:29] [main] INFO  scripts.RegisterTest - Phone: 0355482329
+[2025-10-13 13:58:29] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:58:37] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-13 13:58:37] [main] INFO  scripts.RegisterTest - Email: test4zz@gmail
+[2025-10-13 13:58:37] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:58:37] [main] INFO  scripts.RegisterTest - Phone: 0355482330
+[2025-10-13 13:58:37] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:58:45] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-13 13:58:45] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-13 13:58:45] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:58:45] [main] INFO  scripts.RegisterTest - Phone: 0355482331
+[2025-10-13 13:58:45] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2005
+[2025-10-13 13:59:15] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-13 13:59:15] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-13 13:59:15] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:59:15] [main] INFO  scripts.RegisterTest - Phone: 0355482327
+[2025-10-13 13:59:15] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:59:21] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email đã tồn tại !
+[2025-10-13 13:59:23] [main] INFO  scripts.RegisterTest - Name: 
+[2025-10-13 13:59:23] [main] INFO  scripts.RegisterTest - Email: 
+[2025-10-13 13:59:23] [main] INFO  scripts.RegisterTest - Password: 
+[2025-10-13 13:59:23] [main] INFO  scripts.RegisterTest - Phone: 
+[2025-10-13 13:59:23] [main] INFO  scripts.RegisterTest - Birthday: 
+[2025-10-13 13:59:28] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Vui lòng không bỏ trống
+[2025-10-13 13:59:28] [main] INFO  scripts.RegisterTest -  Test passed 
+[2025-10-13 13:59:30] [main] INFO  scripts.RegisterTest - Name: huy@@
+[2025-10-13 13:59:30] [main] INFO  scripts.RegisterTest - Email: test3zz@gmail.com
+[2025-10-13 13:59:30] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:59:30] [main] INFO  scripts.RegisterTest - Phone: 0355482329
+[2025-10-13 13:59:30] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:59:37] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email đã tồn tại !
+[2025-10-13 13:59:39] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-13 13:59:39] [main] INFO  scripts.RegisterTest - Email: test4zz@gmail
+[2025-10-13 13:59:39] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:59:39] [main] INFO  scripts.RegisterTest - Phone: 0355482330
+[2025-10-13 13:59:39] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2004
+[2025-10-13 13:59:45] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email đã tồn tại !
+[2025-10-13 13:59:47] [main] INFO  scripts.RegisterTest - Name: huy
+[2025-10-13 13:59:47] [main] INFO  scripts.RegisterTest - Email: test1zz@gmail.com
+[2025-10-13 13:59:47] [main] INFO  scripts.RegisterTest - Password: 123456
+[2025-10-13 13:59:47] [main] INFO  scripts.RegisterTest - Phone: 0355482331
+[2025-10-13 13:59:47] [main] INFO  scripts.RegisterTest - Birthday: 04/02/2005
+[2025-10-13 13:59:53] [main] INFO  scripts.RegisterTest - Thông báo thực tế là: Email đã tồn tại !
+[2025-10-13 13:59:53] [main] INFO  scripts.RegisterTest -  Test passed 

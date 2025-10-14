@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Automation Suite">
+<suite name="Automation Suite" verbose="1" parallel="false">
 
+    <!-- Listener để ghi log + screenshot -->
     <listeners>
         <listener class-name="listener.SimpleListeners"/>
     </listeners>
 
+    <!-- Test đăng nhập -->
     <test name="Login Tests">
         <classes>
             <class name="scripts.LoginTest"/>
         </classes>
     </test>
 
+<!--    &lt;!&ndash; Test đăng ký &ndash;&gt;-->
 <!--    <test name="Register Tests">-->
 <!--        <classes>-->
 <!--            <class name="scripts.RegisterTest"/>-->
