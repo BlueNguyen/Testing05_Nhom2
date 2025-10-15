@@ -15,6 +15,8 @@ public class LoginPage {
             this.driver=driver;
             this.wait= new WebDriverWait(driver, Duration.ofSeconds(10));
     }
+
+    // mỏ form đăng nhập
     public void openLoginForm() {
         // B1: mở popup login bằng icon avatar
         By loginIcon = By.xpath("//button[img[contains(@src,'6596121.png')]]");
@@ -28,6 +30,7 @@ public class LoginPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("email")));
     }
 
+    //locatol form  đăng nhập
     public void login(String email, String password) throws InterruptedException {
         openLoginForm();
         driver.findElement(By.name("email")).sendKeys(email);
@@ -36,6 +39,8 @@ public class LoginPage {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
+
+    // mở form đăng ký từ form đăng nhập
     public void openRegisterWithLogin(){
         // B1: mở popup login bằng icon avatar
         By loginIcon = By.xpath("//button[img[contains(@src,'6596121.png')]]");

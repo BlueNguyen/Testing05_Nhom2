@@ -37,10 +37,11 @@ public class RegisterTest extends BaseTest {
         }
         return data;
 
-        }
-@Test(dataProvider = "testDataCapstone")
-public void registerTest(String name,String email, String password, String phone, String birthday,String expectedResult){
-        try{
+    }
+    // test case đăng ký
+    @Test(dataProvider = "testDataCapstone")
+    public void registerTest(String name, String email, String password, String phone, String birthday, String expectedResult) {
+        try {
             logger.info("Name: {}", name);
             logger.info("Email: {}", email);
             logger.info("Password: {}", password);
@@ -51,23 +52,18 @@ public void registerTest(String name,String email, String password, String phone
             registerPage.register(name, email, password, phone, birthday);
             Thread.sleep(3000);
 
-            // Bắt cả lỗi trong form và thông báo tổng thể
-            WebElement messageElement = driver.findElement(By.xpath(
-                    "(//div[@class='ant-form-item-explain-error'] | //span[contains(.,'Đăng ký thành công') or contains(.,'Email đã tồn tại !')])"
-            ));
-
-            String actualMessage = messageElement.getText().trim();
+            String actualMessage = registerPage.getRegisterMessage();
             logger.info("Thông báo thực tế là: {}", actualMessage);
 
-
-            Assert.assertEquals(actualMessage.trim(),expectedResult.trim(),"Sai thông báo mong muốn");
-            logger.info(" Test passed ");
+            Assert.assertEquals(actualMessage.trim(), expectedResult.trim(), "Sai thông báo mong muốn");
+            logger.info("✅ Test passed");
 
         } catch (Exception e) {
+            logger.error("❌ Test failed", e);
             throw new RuntimeException(e);
         }
-
     }
+    //test case ẩn hiện mật khẩu
     @Test
     public void togglePassword(){
         RegisterPage registerPage =  new RegisterPage(driver);
@@ -89,4 +85,38 @@ public void registerTest(String name,String email, String password, String phone
         Assert.assertEquals(passwordField.getAttribute("type"), "password");
         Assert.assertEquals(passwordField.getAttribute("value"), beforeValue, "Giá trị mật khẩu thay đổi khi ẩn!");
     }
+
+    // chọn ngày sinh bằng lịch
+    @Test
+    public void testSelectBirthdayFromCalendar() throws InterruptedException {
+        RegisterPage registerPage = new RegisterPage(driver);
+        String expectedDate = "01/01/2000";
+
+        registerPage.selectBirthdayFromCalendar(expectedDate);
+        String actualDate = registerPage.getBirthdayValue();
+
+        logger.info("Ngày sinh mong đợi: {}", expectedDate);
+        logger.info("Ngày sinh thực tế: {}", actualDate);
+
+        Thread.sleep(2000);
+
+        Assert.assertEquals(actualDate, expectedDate, "Ngày sinh hiển thị sai trong ô!");
+    }
+
+    // chọn ngày sinh trong tương lai
+    @Test
+    public void testSelectFutureBirthday() {
+        RegisterPage registerPage = new RegisterPage(driver);
+        String futureDate = "01/01/2099";
+
+        registerPage.selectFutureBirthday(futureDate);
+        String actualValue = registerPage.getBirthdayValue();
+        String errorMessage = registerPage.getBirthdayErrorMessage();
+
+        Assert.assertTrue(
+                !actualValue.equals(futureDate) || !errorMessage.isEmpty(),
+                "Vẫn chọn được ngày sinh tương lai hoặc không có cảnh báo lỗi!"
+        );
+    }
+
 }

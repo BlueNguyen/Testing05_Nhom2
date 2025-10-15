@@ -1,0 +1,18 @@
+[2025-10-14 23:26:58] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail.com
+[2025-10-14 23:26:58] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-14 23:27:07] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-14 23:27:07] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-14 23:27:09] [main] INFO  scripts.LoginTest - Đang test với email: 
+[2025-10-14 23:27:09] [main] INFO  scripts.LoginTest - Đang test với password: 
+[2025-10-14 23:27:17] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-14 23:27:17] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-14 23:27:19] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail
+[2025-10-14 23:27:19] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-14 23:27:28] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-14 23:27:28] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-14 23:27:29] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy@gmail.com
+[2025-10-14 23:27:29] [main] INFO  scripts.LoginTest - Đang test với password: abc2222
+[2025-10-14 23:27:38] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-14 23:27:38] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-15 21:24:32] [main] INFO  scripts.RegisterTest - Ngày sinh mong đợi: 01/01/2000
+[2025-10-15 21:24:32] [main] INFO  scripts.RegisterTest - Ngày sinh thực tế: 01/01/2000
