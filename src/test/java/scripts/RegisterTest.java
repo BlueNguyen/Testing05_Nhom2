@@ -9,6 +9,7 @@ import org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.STTrueFalse;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pages.auth.LoginPage;
 import pages.auth.RegisterPage;
 import utils.ExcelReader;
 
@@ -56,10 +57,10 @@ public class RegisterTest extends BaseTest {
             logger.info("Thông báo thực tế là: {}", actualMessage);
 
             Assert.assertEquals(actualMessage.trim(), expectedResult.trim(), "Sai thông báo mong muốn");
-            logger.info("✅ Test passed");
+            logger.info(" Test passed");
 
         } catch (Exception e) {
-            logger.error("❌ Test failed", e);
+            logger.error(" Test failed", e);
             throw new RuntimeException(e);
         }
     }
@@ -100,7 +101,7 @@ public class RegisterTest extends BaseTest {
 
         Thread.sleep(2000);
 
-        Assert.assertEquals(actualDate, expectedDate, "Ngày sinh hiển thị sai trong ô!");
+        Assert.assertEquals(actualDate, expectedDate, "Ngày sinh hiển thị sai trong ô");
     }
 
     // chọn ngày sinh trong tương lai
@@ -118,5 +119,37 @@ public class RegisterTest extends BaseTest {
                 "Vẫn chọn được ngày sinh tương lai hoặc không có cảnh báo lỗi!"
         );
     }
+
+    @Test
+    public void registerWithEnter() {
+        try {
+            driver.get("https://demo4.cybersoft.edu.vn/");
+            RegisterPage registerPage = new RegisterPage(driver);
+            registerPage.openRegisterForm();
+
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+            wait.until(ExpectedConditions.elementToBeClickable(By.id("name"))).sendKeys("Nguyen Van A");
+            wait.until(ExpectedConditions.elementToBeClickable(By.id("email"))).sendKeys("testEnter" + System.currentTimeMillis() + "@gmail.com");
+            wait.until(ExpectedConditions.elementToBeClickable(By.id("password"))).sendKeys("123456");
+            wait.until(ExpectedConditions.elementToBeClickable(By.id("phone"))).sendKeys("0912345678");
+            wait.until(ExpectedConditions.elementToBeClickable(By.id("birthday"))).sendKeys("01/01/2000" + Keys.ENTER);
+
+            boolean isRegistered = false;
+            try {
+                wait.until(ExpectedConditions.visibilityOfElementLocated(
+                        By.xpath("//span[normalize-space()='Đăng ký thành công']")));
+                isRegistered = true;
+            } catch (Exception ignored) {
+                isRegistered = false;
+            }
+
+            Assert.assertTrue(isRegistered, " Đăng ký bằng phím Enter không thành công!");
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
 }
