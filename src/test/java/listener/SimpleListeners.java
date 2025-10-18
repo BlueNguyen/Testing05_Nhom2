@@ -1,10 +1,10 @@
 package listener;
 
+import base.BaseTest;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import scripts.BaseTest;
 import utils.ScreenshotUtil;
 
 public class SimpleListeners implements ITestListener {

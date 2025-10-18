@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Automation Suite" verbose="1" parallel="false">
+<suite name="AirBNB Automation Suite" verbose="1" parallel="false">
 
-    <!-- Listener để ghi log + screenshot -->
+    <!-- Listener: kết hợp cả SimpleListeners và ExtentReportListener -->
     <listeners>
         <listener class-name="listener.SimpleListeners"/>
+        <listener class-name="listener.ExtentReportListener"/>
     </listeners>
 
     <!-- Test đăng nhập -->
@@ -14,11 +15,11 @@
         </classes>
     </test>
 
-<!--    &lt;!&ndash; Test đăng ký &ndash;&gt;-->
-<!--    <test name="Register Tests">-->
-<!--        <classes>-->
-<!--            <class name="scripts.RegisterTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <!-- Test đặt phòng -->
+    <test name="Booking Tests">
+        <classes>
+            <class name="scripts.BookingTest"/>
+        </classes>
+    </test>
 
 </suite>
