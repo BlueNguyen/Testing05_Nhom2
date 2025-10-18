@@ -123,7 +123,6 @@ public class RegisterTest extends BaseTest {
     @Test
     public void registerWithEnter() {
         try {
-            driver.get("https://demo4.cybersoft.edu.vn/");
             RegisterPage registerPage = new RegisterPage(driver);
             registerPage.openRegisterForm();
 
@@ -137,8 +136,7 @@ public class RegisterTest extends BaseTest {
 
             boolean isRegistered = false;
             try {
-                wait.until(ExpectedConditions.visibilityOfElementLocated(
-                        By.xpath("//span[normalize-space()='Đăng ký thành công']")));
+                wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[normalize-space()='Đăng ký thành công']")));
                 isRegistered = true;
             } catch (Exception ignored) {
                 isRegistered = false;
@@ -149,6 +147,31 @@ public class RegisterTest extends BaseTest {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    //chuyển hướng sang trang đăng nhâpj sau khi đăng ký
+    @Test
+    public void testRedirectedSuccessfully(){
+        RegisterPage registerPage = new RegisterPage(driver);
+        registerPage.openRegisterForm();
+
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("name"))).sendKeys("Nguyen Van A");
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("email"))).sendKeys("testEnter" + System.currentTimeMillis() + "@gmail.com");
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("password"))).sendKeys("123456");
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("phone"))).sendKeys("0912345678");
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("birthday"))).sendKeys("01/01/2000" + Keys.ENTER);
+
+        boolean isSuccess = false;
+        try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[normalize-space()='Đăng nhập Airbnb']")));
+            isSuccess = true;
+
+        } catch (Exception e) {
+            isSuccess =false;
+        }
+        Assert.assertTrue(isSuccess,"Chuyển hướng không thành công");
     }
 
 
