@@ -1,3 +1,340 @@
+[2025-10-19 10:37:58] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:37:58] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:38:09] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:38:09] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:38:09] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:38:09] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:38:09] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:38:10] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:38:10] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 10:38:10] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:38:10] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 10:38:10] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:38:10] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 10:38:37] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:38:37] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:38:47] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:38:47] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:38:47] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:38:48] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:38:48] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:38:49] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:39:46] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:39:46] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:39:56] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:39:56] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:39:56] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:39:57] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:39:57] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:39:58] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:40:00] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 10:40:00] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:40:00] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 10:40:00] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:40:00] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 10:40:01] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 10:40:01] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 10:40:01] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 10:40:01] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 10:40:02] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Nguyễn Hân
+[2025-10-19 10:40:03] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 10:40:03] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 01/01/2000
+[2025-10-19 10:40:03] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 10:40:03] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Nguyễn Hân - 0987456321 - 01/01/2000
+[2025-10-19 10:40:03] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 10:40:32] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:40:32] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:40:43] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:40:43] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:40:43] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:40:44] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:40:44] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:40:45] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:40:45] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 10:40:45] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:40:45] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 10:40:45] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:40:45] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 10:40:45] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 10:40:45] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 10:40:45] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 10:40:45] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 10:40:47] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Nguyễn Hân
+[2025-10-19 10:40:47] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 10:40:47] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 01/01/2000
+[2025-10-19 10:40:47] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 10:40:47] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Nguyễn Hân - 0987456321 - 01/01/2000
+[2025-10-19 10:40:47] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 10:42:27] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:42:27] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:42:38] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:42:38] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:42:38] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:42:38] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:42:38] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:42:39] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:42:39] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 10:42:39] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:42:39] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 10:42:39] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 10:42:39] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 10:42:39] [main] WARN  pages.profile.ProfilePage - Click trực tiếp thất bại, thử click bằng JS
+[2025-10-19 10:44:19] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:44:19] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:44:30] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:44:30] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:44:30] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:44:30] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:44:31] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:44:31] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:44:31] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 10:44:31] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar3.png
+[2025-10-19 10:44:32] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 10:44:32] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar3.png
+[2025-10-19 10:44:32] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 10:44:32] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 10:44:32] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 10:44:32] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 10:44:32] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 10:44:33] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Hieu
+[2025-10-19 10:44:34] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0123456789
+[2025-10-19 10:44:34] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 20/01/1999
+[2025-10-19 10:44:34] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 10:44:34] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Hieu - 0123456789 - 20/01/1999
+[2025-10-19 10:44:34] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 10:45:03] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:45:03] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:45:14] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:45:14] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:45:14] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:45:14] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:45:14] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:45:15] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:45:15] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 10:45:15] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar3.png
+[2025-10-19 10:45:15] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 10:45:15] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar3.png
+[2025-10-19 10:45:15] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 10:58:31] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 10:58:31] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 10:58:41] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:58:42] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 10:58:42] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 10:58:42] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 10:58:43] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 10:58:43] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 10:58:43] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 10:58:43] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 10:58:43] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 10:58:43] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 10:58:43] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 10:58:44] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 10:58:44] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 10:58:44] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 10:58:44] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 10:58:45] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Han
+[2025-10-19 10:58:46] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0999999999
+[2025-10-19 10:58:46] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 20/11/2004
+[2025-10-19 10:58:46] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 10:58:46] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Han - 0999999999 - 20/11/2004
+[2025-10-19 10:58:46] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 11:01:03] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 11:01:03] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 11:01:14] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:01:14] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 11:01:14] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 11:01:14] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 11:01:15] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:01:16] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 11:01:16] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 11:01:16] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 11:01:16] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 11:01:16] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar2.png
+[2025-10-19 11:01:16] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 11:01:17] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 11:01:17] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 11:01:18] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 11:01:18] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 11:01:19] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Hoài Hiếu
+[2025-10-19 11:01:19] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0123456789
+[2025-10-19 11:01:20] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 22/01/2004
+[2025-10-19 11:01:20] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 11:01:20] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Hoài Hiếu - 0123456789 - 22/01/2004
+[2025-10-19 11:01:20] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 11:25:48] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 11:25:48] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 11:25:59] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:25:59] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 11:25:59] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 11:26:00] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 11:26:00] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:26:00] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 11:26:00] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 11:26:00] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:26:00] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 11:26:00] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:26:00] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 11:26:10] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 11:26:10] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 11:26:10] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 11:26:10] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 11:26:11] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Testing05_Hieu
+[2025-10-19 11:26:12] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 11:26:12] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 30/01/2004
+[2025-10-19 11:26:12] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 11:26:12] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Testing05_Hieu - 0987456321 - 30/01/2004
+[2025-10-19 11:26:12] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 11:26:55] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 11:26:55] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 11:27:05] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:27:05] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 11:27:05] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 11:27:06] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 11:27:06] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:27:07] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 11:27:07] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 11:27:07] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:27:07] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 11:27:07] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:27:07] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 11:27:08] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 11:27:08] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 11:27:08] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 11:27:08] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 11:27:09] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Testing05_Hieu
+[2025-10-19 11:27:09] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 11:27:10] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 30/01/2004
+[2025-10-19 11:27:10] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 11:27:10] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Testing05_Hieu - 0987456321 - 30/01/2004
+[2025-10-19 11:27:10] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 11:27:41] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 11:27:41] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 11:27:51] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:27:51] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 11:27:51] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 11:27:52] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 11:27:52] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:27:53] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 11:27:59] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 11:27:59] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:27:59] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 11:27:59] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:27:59] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 11:28:00] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 11:28:00] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 11:28:00] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 11:28:00] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 11:28:01] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Testing05Hieu
+[2025-10-19 11:28:01] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 11:28:01] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 30/01/2004
+[2025-10-19 11:28:01] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 11:28:01] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Testing05Hieu - 0987456321 - 30/01/2004
+[2025-10-19 11:28:01] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 11:28:29] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 11:28:29] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 11:28:40] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:28:40] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 11:28:40] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 11:28:40] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 11:28:41] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 11:28:41] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 11:28:41] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 11:28:41] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:28:41] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 11:28:41] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 11:28:41] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 11:28:42] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 11:28:42] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 11:28:42] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 11:28:42] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 11:28:43] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Testing
+[2025-10-19 11:28:43] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 11:28:44] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 30/01/2004
+[2025-10-19 11:28:44] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 11:28:44] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Testing - 0987456321 - 30/01/2004
+[2025-10-19 11:28:44] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 15:02:49] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 15:02:49] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 15:03:03] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:03:03] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 15:03:03] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 15:03:05] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 15:03:05] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:03:32] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 15:03:32] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 15:03:43] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:03:43] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 15:03:43] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 15:03:50] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 15:03:50] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 15:04:01] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:04:01] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 15:04:01] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 15:04:01] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 15:04:01] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:04:02] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 15:04:02] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 15:04:02] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 15:04:02] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 15:04:02] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 15:04:02] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 15:04:26] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 15:04:26] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 15:04:37] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:04:37] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 15:04:37] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 15:04:37] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 15:04:37] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:04:38] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 15:04:38] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 15:04:38] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 15:04:38] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 15:05:20] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 15:05:20] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 15:05:31] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:05:31] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 15:05:31] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 15:05:31] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 15:05:31] [main] WARN  pages.profile.ProfilePage - ⚠ Dùng JS click fallback cho: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:05:32] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 15:05:32] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 15:05:32] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 15:05:32] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 15:05:32] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 15:05:32] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 15:05:46] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 15:05:46] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 15:05:46] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 15:05:46] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 15:05:47] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Testing
+[2025-10-19 15:05:47] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 15:05:47] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 30/01/2004
+[2025-10-19 15:05:47] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 15:05:47] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Testing - 0987456321 - 30/01/2004
+[2025-10-19 15:05:47] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
+[2025-10-19 15:06:05] [main] INFO  scripts.ProfileTest - 🔹 Test Data: Email=hieu002@gmail.com, DiaDiem=, Phong=
+[2025-10-19 15:06:05] [main] INFO  scripts.ProfileTest - ➡ Mở modal đăng nhập...
+[2025-10-19 15:06:15] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:06:15] [main] INFO  pages.profile.ProfilePage - Đã mở modal đăng nhập
+[2025-10-19 15:06:15] [main] INFO  scripts.ProfileTest - ➡ Thực hiện login với email: hieu002@gmail.com
+[2025-10-19 15:06:16] [main] INFO  scripts.ProfileTest - ➡ Điều hướng đến trang Thông tin người dùng...
+[2025-10-19 15:06:16] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //img[contains(@class,'h-10')]
+[2025-10-19 15:06:17] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //a[contains(@href,'/info-user') or text()='Dashboard']
+[2025-10-19 15:06:17] [main] INFO  pages.profile.ProfilePage - Đã điều hướng đến trang info-user
+[2025-10-19 15:06:17] [main] INFO  scripts.ProfileTest - ➡ Cập nhật ảnh đại diện từ file: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 15:06:17] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Cập nhật ảnh')]
+[2025-10-19 15:06:17] [main] INFO  pages.profile.ProfilePage - Upload ảnh thành công: C:\folder\Tester\Testing05_Nhom2-HoaiHieu_Profile/src/test/resources/avatar4.png
+[2025-10-19 15:06:17] [main] INFO  scripts.ProfileTest - ➡ Click nút Upload Avatar
+[2025-10-19 15:06:18] [main] INFO  pages.profile.ProfilePage - Đã click nút Upload Avatar thành công
+[2025-10-19 15:06:18] [main] INFO  scripts.ProfileTest - ➡ Thực hiện chỉnh sửa hồ sơ...
+[2025-10-19 15:06:18] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[contains(.,'Chỉnh sửa hồ sơ')]
+[2025-10-19 15:06:18] [main] INFO  pages.profile.ProfilePage - Đã mở popup Chỉnh sửa hồ sơ
+[2025-10-19 15:06:19] [main] INFO  pages.profile.ProfilePage - Nhập họ tên: Testing
+[2025-10-19 15:06:19] [main] INFO  pages.profile.ProfilePage - Nhập số điện thoại: 0987456321
+[2025-10-19 15:06:19] [main] INFO  pages.profile.ProfilePage - Nhập ngày sinh: 30/01/2004
+[2025-10-19 15:06:20] [main] INFO  pages.profile.ProfilePage - Click thành công: By.xpath: //button[normalize-space()='Cập nhật']
+[2025-10-19 15:06:20] [main] INFO  pages.profile.ProfilePage - Đã cập nhật hồ sơ: Testing - 0987456321 - 30/01/2004
+[2025-10-19 15:06:20] [main] INFO  scripts.ProfileTest - Hồ sơ người dùng được cập nhật thành công!
 [2025-10-19 13:35:52] [main] INFO  scripts.SignoutTest - 🔹 Running test with data: Email=hieu002@gmail.com, DiaDiem=, Phong=
 [2025-10-19 13:35:52] [main] INFO  scripts.SignoutTest - ➡ Thực hiện login với email: hieu002@gmail.com
 [2025-10-19 13:37:39] [main] INFO  scripts.SignoutTest - 🔹 Test đăng nhập và đăng xuất với email: hieu002@gmail.com
@@ -215,3 +552,4 @@ Session ID: 12bd479f7aac98d17fd911fa8db42b5b
 [2025-10-19 15:15:42] [main] INFO  pages.signout.SignoutPage - Click Sign out...
 [2025-10-19 15:15:42] [main] INFO  pages.signout.SignoutPage - Click Sign out thành công.
 [2025-10-19 15:15:57] [main] ERROR pages.signout.SignoutPage - Không thấy nút 'Đăng nhập' sau khi logout.
+
