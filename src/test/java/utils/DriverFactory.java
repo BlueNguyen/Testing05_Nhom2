@@ -45,6 +45,7 @@ public class DriverFactory {
             default:
                 throw new IllegalArgumentException("Trình duyệt không được hỗ trợ: " + browserName);
         }
+
         return driver;
     }
 }
