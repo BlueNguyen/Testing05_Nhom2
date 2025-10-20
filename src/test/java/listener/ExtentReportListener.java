@@ -1,6 +1,8 @@
 package listener;
 
-import com.aventstack.extentreports.*;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -11,12 +13,10 @@ import utils.ScreenshotUtil;
 public class ExtentReportListener implements ITestListener {
 
     // Khởi tạo ExtentReports thông qua ExtentManager
-//    public static ExtentReports extent = ExtentManager.createInstance();
-
     public static ExtentReports extent;
+
     // ThreadLocal để tránh xung đột khi chạy test song song
     public static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
-
 
     @Override
     public void onStart(ITestContext context) {
@@ -28,9 +28,7 @@ public class ExtentReportListener implements ITestListener {
     // Khi test bắt đầu
     @Override
     public void onTestStart(ITestResult result) {
-        // Tạo một test mới trong báo cáo với tên là tên method
         ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName());
-        // Gán vào thread hiện tại
         test.set(extentTest);
     }
 
@@ -49,7 +47,7 @@ public class ExtentReportListener implements ITestListener {
         String methodName = result.getMethod().getMethodName();
 
         if (driver != null) {
-            // ✅ Nhận đường dẫn ảnh sau khi chụp
+            // Nhận đường dẫn ảnh sau khi chụp
             String screenshotPath = ScreenshotUtil.captureScreenshot(driver, methodName);
             if (screenshotPath != null) {
                 try {
@@ -70,7 +68,6 @@ public class ExtentReportListener implements ITestListener {
     // Khi toàn bộ test của một suite/class kết thúc
     @Override
     public void onFinish(ITestContext context) {
-        // Ghi toàn bộ dữ liệu vào file báo cáo
         extent.flush();
     }
 

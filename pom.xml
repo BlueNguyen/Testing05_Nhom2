@@ -5,7 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>Testing05_Nhom2</artifactId>
+=======
+    <artifactId>Testing05_Nhom2-HoaiHieu_Signout</artifactId>
+>>>>>>> Hieu_Signout
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,6 +17,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<<<<<<< HEAD
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -64,6 +69,8 @@
         </dependency>
 
     </dependencies>
+=======
+>>>>>>> Hieu_Signout
 
     <!-- Ép commons-lang3 về bản 3.18.0 để fix CVE-2025-48924 -->
     <dependencyManagement>
@@ -148,4 +155,8 @@
 
     </dependencies>
 
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> Hieu_Signout
