@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Testing05_Nhom2-HoaiHieu_Signout" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Testing05_Nhom2-HoaiHieu_Signout" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
