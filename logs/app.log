@@ -207,3 +207,11 @@ Session ID: 12bd479f7aac98d17fd911fa8db42b5b
 	at org.testng.TestNG.run(TestNG.java:1079)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2025-10-19 15:15:40] [main] INFO  scripts.SignoutTest - 🔹 Test đăng nhập và đăng xuất với email: hieu002@gmail.com
+[2025-10-19 15:15:40] [main] INFO  pages.signout.SignoutPage - Đang mở modal đăng nhập...
+[2025-10-19 15:15:41] [main] INFO  pages.signout.SignoutPage - Đã mở modal đăng nhập thành công.
+[2025-10-19 15:15:41] [main] INFO  scripts.SignoutTest - Đăng nhập thành công với user: hieu002@gmail.com
+[2025-10-19 15:15:41] [main] INFO  pages.signout.SignoutPage - 👤 Mở menu người dùng (sau khi login)...
+[2025-10-19 15:15:42] [main] INFO  pages.signout.SignoutPage - Click Sign out...
+[2025-10-19 15:15:42] [main] INFO  pages.signout.SignoutPage - Click Sign out thành công.
+[2025-10-19 15:15:57] [main] ERROR pages.signout.SignoutPage - Không thấy nút 'Đăng nhập' sau khi logout.
