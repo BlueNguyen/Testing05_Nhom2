@@ -2195,3 +2195,1372 @@ Session ID: 047f54b1bff2d85fa5815bf1a4a3be85
 [2025-10-12 17:20:24] [main] INFO  scripts.BookingTest - ➡ Click đặt phòng khi chưa login
 [2025-10-12 17:20:26] [main] INFO  pages.booking.BookingPage - ❌ Lỗi login hiển thị: Vui lòng đăng nhập để tiếp tục đặt phòng.
 [2025-10-12 17:20:26] [main] INFO  scripts.BookingTest - ❌ Kết quả booking khi chưa login: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-12 17:46:14] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 17:46:28] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 17:46:29] [main] INFO  pages.booking.CancelBookingPage - ➡ Chọn mục Dashboard trong menu
+[2025-10-12 18:53:43] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 18:53:57] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 18:56:34] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 18:56:49] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 18:56:50] [main] INFO  pages.booking.CancelBookingPage - ➡ Chọn mục Dashboard trong menu
+[2025-10-12 18:58:47] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 18:58:59] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 18:59:00] [main] INFO  pages.booking.CancelBookingPage - ➡ Chọn mục Dashboard trong menu
+[2025-10-12 19:05:54] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 19:06:07] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 19:06:09] [main] INFO  pages.booking.CancelBookingPage - ➡ Chọn mục Dashboard trong menu
+[2025-10-12 19:11:55] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 19:12:07] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 19:12:08] [main] INFO  pages.booking.CancelBookingPage - ➡ Chọn Dashboard
+[2025-10-12 19:12:09] [main] INFO  pages.booking.CancelBookingPage - ➡ Chờ trang Dashboard hiển thị
+[2025-10-12 19:14:19] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 19:14:31] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 19:14:33] [main] INFO  pages.booking.CancelBookingPage - ➡ Chọn Dashboard
+[2025-10-12 19:14:33] [main] INFO  pages.booking.CancelBookingPage - ➡ Chờ trang Dashboard hiển thị
+[2025-10-12 19:16:44] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 19:16:57] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 19:16:59] [main] INFO  pages.booking.CancelBookingPage - ➡ Chọn Dashboard từ dropdown
+[2025-10-12 19:19:18] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 19:19:30] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 19:19:33] [main] INFO  pages.booking.CancelBookingPage - ⏳ Chờ menu dropdown hiển thị 'Dashboard'...
+[2025-10-12 19:19:48] [main] WARN  pages.booking.CancelBookingPage - ⚠ Không thấy menu, thử click lại avatar 1 lần nữa...
+[2025-10-12 19:19:50] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard
+[2025-10-12 19:19:50] [main] INFO  pages.booking.CancelBookingPage - ➡ Chờ trang Dashboard hiển thị
+[2025-10-12 19:22:47] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-12 19:23:00] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-12 19:23:01] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click avatar, chờ menu user xuất hiện
+[2025-10-12 19:23:02] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard (JS click)
+[2025-10-12 19:23:02] [main] INFO  pages.booking.CancelBookingPage - 🌐 URL hiện tại sau click Dashboard: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-12 19:23:02] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công
+[2025-10-12 19:23:02] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 18:04:48] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:04:59] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-13 18:05:00] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click avatar, chờ menu user xuất hiện
+[2025-10-13 18:05:00] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard (JS click)
+[2025-10-13 18:05:00] [main] INFO  pages.booking.CancelBookingPage - 🌐 URL hiện tại sau click Dashboard: https://demo4.cybersoft.edu.vn/
+[2025-10-13 18:05:21] [main] ERROR pages.booking.CancelBookingPage - ❌ Dashboard không mở. URL hiện tại: https://demo4.cybersoft.edu.vn/
+[2025-10-13 18:13:13] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:13:24] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-13 18:13:25] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard
+[2025-10-13 18:13:25] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 18:13:25] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 18:20:50] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:21:01] [main] INFO  pages.booking.CancelBookingPage - ➡ Click avatar để mở menu user
+[2025-10-13 18:21:02] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard
+[2025-10-13 18:21:02] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 18:21:02] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 18:27:27] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:27:38] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:28:31] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:28:43] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:29:57] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:30:08] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:42:57] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:43:07] [main] INFO  pages.LoginPage - ⚠️ Không tìm thấy tên kế bên avatar — chưa login.
+[2025-10-13 18:43:07] [main] INFO  pages.booking.BookingPage - ➡ Click nút Đăng nhập để mở modal login.
+[2025-10-13 18:44:08] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:44:18] [main] INFO  pages.LoginPage - ⚠️ Không tìm thấy tên kế bên avatar — chưa login.
+[2025-10-13 18:44:18] [main] INFO  pages.booking.BookingPage - ➡ Click nút Đăng nhập để mở modal login.
+[2025-10-13 18:45:41] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:46:02] [main] INFO  pages.LoginPage - ⚠️ Không tìm thấy tên kế bên avatar — chưa login.
+[2025-10-13 18:46:02] [main] INFO  pages.LoginPage - ➡ Đang thực hiện đăng nhập với email: blue299@gmail.com
+[2025-10-13 18:46:03] [main] INFO  pages.LoginPage - ✅ Đăng nhập thành công!
+[2025-10-13 18:46:03] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:47:30] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:47:51] [main] INFO  pages.LoginPage - ⚠️ Không tìm thấy tên kế bên avatar — chưa login.
+[2025-10-13 18:47:51] [main] INFO  pages.LoginPage - ➡ Đang thực hiện đăng nhập với email: blue299@gmail.com
+[2025-10-13 18:47:52] [main] INFO  pages.LoginPage - ✅ Đăng nhập thành công!
+[2025-10-13 18:47:52] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:49:47] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:50:03] [main] INFO  pages.LoginPage - ⚠️ Không tìm thấy tên kế bên avatar — chưa login.
+[2025-10-13 18:50:03] [main] INFO  pages.LoginPage - ➡ Đang thực hiện đăng nhập với email: blue299@gmail.com
+[2025-10-13 18:50:03] [main] INFO  pages.LoginPage - ✅ Đăng nhập thành công!
+[2025-10-13 18:50:03] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:50:47] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:51:08] [main] INFO  pages.LoginPage - ⚠️ Không tìm thấy tên kế bên avatar — chưa login.
+[2025-10-13 18:51:08] [main] INFO  pages.LoginPage - ➡ Đang thực hiện đăng nhập với email: blue299@gmail.com
+[2025-10-13 18:51:09] [main] INFO  pages.LoginPage - ✅ Đăng nhập thành công!
+[2025-10-13 18:51:09] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:52:30] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 18:52:42] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 18:59:51] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:00:02] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:00:07] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:00:07] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:03:10] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:03:22] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:03:27] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:03:27] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:03:28] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 19:03:28] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 19:03:32] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
+[2025-10-13 19:03:32] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Cancel booking
+[2025-10-13 19:06:19] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:06:20] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:06:25] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:06:25] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:06:41] [main] ERROR pages.booking.CancelBookingPage - ❌ Lỗi khi mở Dashboard: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href,'info-user') or normalize-space()='Dashboard'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60935}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60935/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fca8cd5fccc00713a0da5455b34930d
+[2025-10-13 19:07:42] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:07:54] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:07:59] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:07:59] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:08:15] [main] ERROR pages.booking.CancelBookingPage - ❌ Lỗi khi mở Dashboard: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href,'info-user') or normalize-space()='Dashboard'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60993/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7571551beb6efa921e67c317aae6305
+[2025-10-13 19:09:39] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:09:51] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:09:57] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:09:57] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:10:12] [main] ERROR pages.booking.CancelBookingPage - ❌ Lỗi khi mở Dashboard: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href,'info-user') or normalize-space()='Dashboard'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61050}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61050/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 979b705c7e5eae63159b6a88ebf99f50
+[2025-10-13 19:11:11] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:11:24] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:11:32] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:11:32] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:11:47] [main] ERROR pages.booking.CancelBookingPage - ❌ Lỗi khi mở Dashboard: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href,'info-user') or normalize-space()='Dashboard'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61114/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 409b9b7187799cee2f5abef4d6e5af28
+[2025-10-13 19:12:41] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:12:53] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:12:58] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:12:58] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:13:14] [main] ERROR pages.booking.CancelBookingPage - ❌ Lỗi khi mở Dashboard: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href,'info-user') or normalize-space()='Dashboard'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61173/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93333df9a8b34ee8244ee3e176f1cdca
+[2025-10-13 19:15:14] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:15:26] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:15:32] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:15:32] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:15:32] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar để mở dropdown menu
+[2025-10-13 19:15:52] [main] WARN  pages.booking.CancelBookingPage - ⚠️ Menu chưa hiện (lần 1) → click lại avatar
+[2025-10-13 19:16:14] [main] WARN  pages.booking.CancelBookingPage - ⚠️ Menu chưa hiện (lần 2) → click lại avatar
+[2025-10-13 19:16:35] [main] WARN  pages.booking.CancelBookingPage - ⚠️ Menu chưa hiện (lần 3) → click lại avatar
+[2025-10-13 19:16:36] [main] ERROR pages.booking.CancelBookingPage - ❌ Lỗi khi mở Dashboard: ❌ Menu avatar không mở được sau 3 lần thử
+[2025-10-13 19:19:15] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:19:27] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:19:32] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:19:32] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:19:33] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-13 19:19:38] [main] WARN  pages.booking.CancelBookingPage - ⚠️ Menu chưa hiện (lần 1) → thử lại sau 3s
+[2025-10-13 19:19:41] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 2)
+[2025-10-13 19:19:42] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard (lần 2)
+[2025-10-13 19:19:42] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 19:19:42] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 19:19:44] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
+[2025-10-13 19:19:44] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Cancel booking
+[2025-10-13 19:20:46] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:20:57] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:21:02] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:21:02] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:21:03] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-13 19:21:08] [main] WARN  pages.booking.CancelBookingPage - ⚠️ Menu chưa hiện (lần 1) → thử lại sau 3s
+[2025-10-13 19:21:11] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 2)
+[2025-10-13 19:21:12] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard (lần 2)
+[2025-10-13 19:21:12] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 19:21:12] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 19:21:14] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
+[2025-10-13 19:21:14] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Cancel booking
+[2025-10-13 19:25:23] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:25:34] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:25:39] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:25:39] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:25:40] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-13 19:25:45] [main] WARN  pages.booking.CancelBookingPage - ⚠️ Menu chưa hiện (lần 1) → thử lại sau 3s
+[2025-10-13 19:25:48] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 2)
+[2025-10-13 19:25:49] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard (lần 2)
+[2025-10-13 19:25:49] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 19:25:49] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 19:25:51] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
+[2025-10-13 19:25:51] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Huỷ phòng
+[2025-10-13 19:26:01] [main] ERROR pages.booking.CancelBookingPage - ❌ Không tìm thấy Button Huỷ phòng trong vòng 10s!
+[2025-10-13 19:26:01] [main] INFO  scripts.BookingTest - ✅ Đã thực hiện huỷ phòng thành công
+[2025-10-13 19:31:58] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:32:11] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:32:16] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:32:16] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:32:16] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-13 19:32:17] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-13 19:32:17] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 19:32:17] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 19:32:19] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
+[2025-10-13 19:32:19] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Huỷ phòng
+[2025-10-13 19:32:29] [main] ERROR pages.booking.CancelBookingPage - ❌ Không tìm thấy Button Huỷ phòng trong vòng 10s → Test FAIL
+[2025-10-13 19:33:13] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-13 19:33:13] [main] INFO  scripts.BookingTest - ➡ Thực hiện login với email: blue299@gmail.com
+[2025-10-13 19:33:25] [main] INFO  scripts.BookingTest - ➡ Chọn địa điểm: Đà Lạt
+[2025-10-13 19:33:27] [main] INFO  scripts.BookingTest - ➡ Chọn phòng: Phòng mùa hè
+[2025-10-13 19:33:42] [main] INFO  scripts.BookingTest - ➡ Click đặt phòng
+[2025-10-13 19:33:54] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-13 19:33:54] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-13 19:33:54] [main] INFO  scripts.BookingTest - ✅ Kết quả booking: Thêm mới thành công!
+[2025-10-13 19:33:56] [main] INFO  scripts.BookingTest - 🔹 Running test (NO LOGIN) with data: DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-13 19:33:56] [main] INFO  scripts.BookingTest - ➡ Chọn địa điểm: Đà Lạt
+[2025-10-13 19:33:58] [main] INFO  scripts.BookingTest - ➡ Chọn phòng: Phòng mùa hè
+[2025-10-13 19:34:13] [main] INFO  scripts.BookingTest - ➡ Click đặt phòng khi chưa login
+[2025-10-13 19:34:15] [main] INFO  pages.booking.BookingPage - ❌ Lỗi login hiển thị: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-13 19:34:15] [main] INFO  scripts.BookingTest - ❌ Kết quả booking khi chưa login: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-13 19:34:16] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-13 19:34:28] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-13 19:34:33] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-13 19:34:33] [main] INFO  pages.booking.CancelBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-13 19:34:33] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-13 19:34:39] [main] WARN  pages.booking.CancelBookingPage - ⚠️ Menu chưa hiện (lần 1) → thử lại sau 3s
+[2025-10-13 19:34:42] [main] INFO  pages.booking.CancelBookingPage - 🖱️ Click avatar (lần 2)
+[2025-10-13 19:34:43] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click Dashboard (lần 2)
+[2025-10-13 19:34:43] [main] INFO  pages.booking.CancelBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-13 19:34:43] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-13 19:34:44] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
+[2025-10-13 19:34:44] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Huỷ phòng
+[2025-10-13 19:34:54] [main] ERROR pages.booking.CancelBookingPage - ❌ Không tìm thấy Button Huỷ phòng
+[2025-10-14 18:20:39] [main] INFO  pages.booking.FavoritePage - 💖 Click vào trái tim yêu thích của phòng: Phòng mùa hè
+[2025-10-14 18:25:19] [main] INFO  scripts.BookingTest - 🔹 Running favorite room test for email: blue299@gmail.com
+[2025-10-14 18:25:20] [main] INFO  pages.booking.FavoritePage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 18:25:21] [main] INFO  pages.booking.FavoritePage - ✅ Dashboard mở thành công
+[2025-10-14 18:25:21] [main] INFO  pages.booking.FavoritePage - 💖 Click trái tim yêu thích cho phòng 'Phòng mùa hè'
+[2025-10-14 18:52:01] [main] INFO  scripts.BookingTest - 🔹 Running cancel booking test for email: blue299@gmail.com
+[2025-10-14 18:52:13] [main] INFO  pages.booking.CancelBookingPage - ⏳ Đợi 5s sau khi login để giao diện ổn định...
+[2025-10-14 18:52:18] [main] INFO  pages.booking.CancelBookingPage - 🟢 Đã click lại avatar sau khi login.
+[2025-10-14 18:52:18] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 18:52:19] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 18:52:24] [main] WARN  pages.booking.BaseBookingPage - ⚠️ Menu chưa hiện (lần 1) → thử lại sau 3s
+[2025-10-14 18:52:28] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 2)
+[2025-10-14 18:52:28] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 2)
+[2025-10-14 18:52:29] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 18:52:29] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm phòng có tên: Phòng mùa hè
+[2025-10-14 18:52:30] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
+[2025-10-14 18:52:30] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Huỷ phòng
+[2025-10-14 18:52:40] [main] ERROR pages.booking.CancelBookingPage - ❌ Không tìm thấy Button Huỷ phòng
+[2025-10-14 18:52:54] [main] INFO  scripts.BookingTest - 🔹 Running favorite room test for email: blue299@gmail.com
+[2025-10-14 18:53:05] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 18:53:06] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 18:53:06] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 18:53:06] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 18:53:06] [main] INFO  pages.booking.BaseBookingPage - 💖 Click trái tim yêu thích cho phòng 'Phòng mùa hè'
+[2025-10-14 18:53:06] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 18:53:07] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 18:53:08] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 18:53:08] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 18:57:40] [main] INFO  scripts.BookingTest - 🔹 Running favorite room test for email: blue299@gmail.com
+[2025-10-14 18:57:51] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 18:57:52] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 18:57:53] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 18:57:53] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 18:57:53] [main] INFO  pages.booking.BaseBookingPage - 💖 Click trái tim yêu thích cho phòng 'Phòng mùa hè'
+[2025-10-14 18:57:53] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 18:57:53] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 18:57:54] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 18:57:54] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 18:58:15] [main] ERROR pages.booking.BaseBookingPage - ❌ Không tìm thấy phòng 'Phòng mùa hè' để click yêu thích: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'phòng mùa hè')]/ancestor::div[contains(@class,'relative')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62327/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06b95b375f921d3a9c3af9f5c9b4440e
+[2025-10-14 19:00:48] [main] INFO  scripts.BookingTest - 🔹 Running favorite room test for email: blue299@gmail.com
+[2025-10-14 19:00:59] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 19:01:00] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 19:01:00] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 19:01:00] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 19:01:00] [main] INFO  pages.booking.BaseBookingPage - 💖 Click trái tim yêu thích cho phòng 'Phòng mùa hè'
+[2025-10-14 19:01:22] [main] ERROR pages.booking.BaseBookingPage - ❌ Không tìm thấy phòng 'Phòng mùa hè' để click yêu thích: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'phòng mùa hè')]/ancestor::div[contains(@class,'relative')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62486/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 542a07158e7298a1496fd12eda658d72
+[2025-10-14 19:18:13] [main] INFO  scripts.BookingTest - 🔹 Running favorite room test for email: blue299@gmail.com
+[2025-10-14 19:18:14] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 19:18:15] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 19:18:15] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 19:18:15] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 19:18:15] [main] INFO  pages.booking.BaseBookingPage - 💖 Click trái tim yêu thích cho phòng 'Phòng mùa hè'
+[2025-10-14 19:18:36] [main] ERROR pages.booking.BaseBookingPage - ❌ Không tìm thấy phòng 'Phòng mùa hè' để click yêu thích: Expected condition failed: waiting for visibility of element located by By.xpath: //h2[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'phòng mùa hè')]/ancestor::div[contains(@class,'relative')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62754}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62754/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 79ced66a48e3e68cb452d7bf56e02996
+[2025-10-14 19:21:51] [main] INFO  scripts.BookingTest - 🔹 Running favorite room test for email: blue299@gmail.com
+[2025-10-14 19:22:02] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 19:22:02] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 19:22:03] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 19:22:03] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 19:22:03] [main] INFO  pages.booking.BaseBookingPage - 💖 Click trái tim yêu thích cho phòng 'Phòng mùa hè'
+[2025-10-14 19:22:24] [main] ERROR pages.booking.BaseBookingPage - ❌ Không tìm thấy phòng 'Phòng mùa hè' để click yêu thích: no such element: Unable to locate element: {"method":"xpath","selector":".//button[descendant::svg]"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4163b59e6a5bcf8c7feb3560c252f06, findChildElement {id=f.80A9127E5973AF126194DFFF7D471FBF.d.53F6ECB256258585AEA79077EF06A579.e.46, value=.//button[descendant::svg], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62869/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4163b59e6a5bcf8c7feb3560c252f06
+[2025-10-14 21:46:02] [main] INFO  scripts.BookingTest - 🔹 Running favorite room test for email: blue299@gmail.com
+[2025-10-14 21:46:13] [main] INFO  pages.booking.BaseBookingPage - ➡ Mở Dashboard từ avatar menu
+[2025-10-14 21:46:14] [main] INFO  pages.booking.BaseBookingPage - 🖱️ Click avatar (lần 1)
+[2025-10-14 21:46:15] [main] INFO  pages.booking.BaseBookingPage - ✅ Đã click Dashboard (lần 1)
+[2025-10-14 21:46:15] [main] INFO  pages.booking.BaseBookingPage - ✅ Dashboard mở thành công, URL: https://demo4.cybersoft.edu.vn/info-user
+[2025-10-14 21:46:15] [main] INFO  pages.booking.BaseBookingPage - 💖 Click trái tim yêu thích cho phòng 'Phòng mùa hè'
+[2025-10-14 21:46:36] [main] ERROR pages.booking.BaseBookingPage - ❌ Không tìm thấy phòng 'Phòng mùa hè' để click yêu thích: no such element: Unable to locate element: {"method":"xpath","selector":".//button[descendant::svg]"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66c749d538a3b389fc5bf56edc29eef6, findChildElement {using=xpath, value=.//button[descendant::svg], id=f.F905A0C683170F4BEB416163D04428B2.d.3D1D9B6CF6385ABAE51EDBBB8844CF81.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50579/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 66c749d538a3b389fc5bf56edc29eef6
+[2025-10-14 22:26:56] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-14 22:27:16] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(.,'Nhận phòng') and contains(@class,'cursor-pointer')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51711/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de5adbef450b90ac7709f4453611171d
+[2025-10-14 22:37:23] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-14 22:37:51] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-14 22:37:52] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: element click intercepted: Element is not clickable at point (1174, 916)
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00aaf3e5f718d34a3e680698855bbd47, clickElement {id=f.2420EA148E92719F60B97AD994F7E759.d.87776CCC523FD58C704B9D8852B96066.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52046/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (00aaf3e5f718d34a3e680698855bbd47)] -> xpath: //div[contains(.,'Nhận phòng') and contains(@class,'cursor-pointer')]]
+Session ID: 00aaf3e5f718d34a3e680698855bbd47
+[2025-10-14 22:40:03] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-14 22:40:32] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-14 22:40:32] [main] INFO  pages.booking.BookingPage - 📅 Click ô Nhận phòng để mở calendar
+[2025-10-14 22:40:32] [main] INFO  pages.booking.BookingPage - ✅ Đã click ô Nhận phòng thành công
+[2025-10-14 22:40:53] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Expected condition failed: waiting for element to be clickable: By.xpath: //select[contains(@class,'react-datepicker__month-select') or contains(@class,'month-select')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52200/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2704aaea500b5166174c46f27fbf6c65
+[2025-10-15 19:17:54] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-15 19:18:23] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-15 19:18:23] [main] INFO  pages.booking.BookingPage - 📅 Click ô Nhận phòng để mở calendar
+[2025-10-15 19:18:23] [main] INFO  pages.booking.BookingPage - ✅ Đã click ô Nhận phòng thành công
+[2025-10-15 19:18:44] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Expected condition failed: waiting for element to be clickable: By.xpath: //select[contains(@class,'react-datepicker__month-select') or contains(@class,'month-select')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9b58527733a4f0885710e0168e319cb
+[2025-10-15 19:48:36] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-15 19:49:04] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-15 19:49:04] [main] INFO  pages.booking.BookingPage - ✅ Đã click ô Nhận phòng
+[2025-10-15 19:49:04] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm trên calendar
+[2025-10-15 19:49:25] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn tháng/năm: Expected condition failed: waiting for visibility of element located by By.cssSelector: .rdrMonthPicker select (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56724/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2d83ffd85aa39283784ae480b886a84
+[2025-10-15 19:49:25] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Không thể chọn tháng/năm
+[2025-10-15 19:52:49] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-15 19:54:06] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-15 19:54:52] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-15 19:54:52] [main] INFO  pages.booking.BookingPage - ✅ Đã click ô Nhận phòng
+[2025-10-15 19:54:52] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn tháng và năm trên calendar
+[2025-10-15 19:55:10] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn tháng/năm: Error communicating with the remote browser. It may have died.
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96e4588dade8e6b655c42daca29d5b98, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57046/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96e4588dade8e6b655c42daca29d5b98
+[2025-10-15 19:55:10] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Không thể chọn tháng/năm
+[2025-10-15 19:55:32] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 17:52:15] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 17:52:43] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-16 17:52:44] [main] INFO  pages.booking.BookingPage - ✅ Đã click ô Nhận phòng
+[2025-10-16 17:52:44] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm trên calendar
+[2025-10-16 17:53:04] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn tháng/năm: Expected condition failed: waiting for visibility of element located by By.cssSelector: .rdrMonthPicker select (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64127/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f444512ea45f6ae87f02a36a32a57a2a
+[2025-10-16 17:53:04] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Không thể chọn tháng/năm
+[2025-10-16 18:12:38] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 18:13:06] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận và trả phòng
+[2025-10-16 18:13:06] [main] INFO  pages.booking.BookingPage - ✅ Đã click ô Nhận phòng
+[2025-10-16 18:13:06] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm trên calendar
+[2025-10-16 18:13:27] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn tháng/năm: Expected condition failed: waiting for visibility of element located by By.cssSelector: .rdrMonthPicker select (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49934/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 885fc7022c87f47fe3ab6e588374a590
+[2025-10-16 18:13:27] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Không thể chọn tháng/năm
+[2025-10-16 18:23:33] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 18:24:01] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: October 2025/15 → November 2025/5
+[2025-10-16 18:24:22] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'cursor-pointer') and contains(@class,'relative')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50149/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83a1f9e5b9d2572ab020465e475810aa
+[2025-10-16 18:59:54] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 19:00:22] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 15 October/2025 → 5 November/2025
+[2025-10-16 19:00:22] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 19:00:22] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 19:00:23] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 19:00:23] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 15
+[2025-10-16 19:00:23] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày nhận phòng: 15 October/2025
+[2025-10-16 19:00:23] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 19:00:23] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 19:00:24] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 19:00:24] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày trả phòng: 5 November/2025
+[2025-10-16 19:00:24] [main] INFO  pages.booking.BookingPage - ✅ Đã đóng calendar popup
+[2025-10-16 19:00:24] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-16 19:00:49] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 19:01:17] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 15 October/2025 → 5 November/2025
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 15
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày nhận phòng: 15 October/2025
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày trả phòng: 5 November/2025
+[2025-10-16 19:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã đóng calendar popup
+[2025-10-16 19:01:18] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-16 19:02:02] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 19:02:31] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 15 October/2025 → 5 November/2025
+[2025-10-16 19:02:31] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 19:02:31] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 19:02:31] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 19:02:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 15
+[2025-10-16 19:02:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày nhận phòng: 15 October/2025
+[2025-10-16 19:02:32] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 19:02:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 19:02:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 19:02:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày trả phòng: 5 November/2025
+[2025-10-16 19:02:32] [main] INFO  pages.booking.BookingPage - ✅ Đã đóng calendar popup
+[2025-10-16 19:02:32] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-16 19:03:08] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 19:03:36] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-16 19:03:36] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 19:03:36] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 19:03:36] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 19:03:37] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-16 19:03:37] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày nhận phòng: 20 October/2025
+[2025-10-16 19:03:37] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 19:03:37] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 19:03:37] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 19:03:37] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày trả phòng: 5 November/2025
+[2025-10-16 19:03:37] [main] INFO  pages.booking.BookingPage - ✅ Đã đóng calendar popup
+[2025-10-16 19:03:37] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-16 19:44:11] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-16 19:44:39] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-16 19:44:39] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 19:44:39] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 19:44:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 19:44:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-16 19:44:40] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 19:44:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 19:44:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 19:44:40] [main] INFO  pages.booking.BookingPage - ✅ Ngày nhận phòng hiển thị khớp: 20-10-2025
+[2025-10-16 19:44:40] [main] INFO  pages.booking.BookingPage - ✅ Ngày trả phòng hiển thị khớp: 05-11-2025
+[2025-10-16 19:44:40] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-16 19:55:04] [main] INFO  scripts.BookingTest - 🔹 Running test kiểm tra phòng đã được đặt rồi cho email: blue299@gmail.com
+[2025-10-16 19:55:17] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 15 October/2025 → 20 October/2025
+[2025-10-16 19:55:17] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 19:55:17] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 19:55:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 19:55:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 15
+[2025-10-16 19:55:18] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 19:55:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 19:55:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-16 19:55:39] [main] WARN  pages.booking.BookingPage - ⚠️ Không tìm thấy nút Close, popup có thể đã tự đóng
+[2025-10-16 19:55:49] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Nhận phòng')]/following-sibling::div"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a497f436c135fb6aef90d0f8affb22ef, findElement {value=//div[contains(text(),'Nhận phòng')]/following-sibling::div, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54439/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a497f436c135fb6aef90d0f8affb22ef
+[2025-10-16 20:10:00] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:10:13] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:10:13] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:10:13] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:10:14] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:10:14] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-16 20:10:14] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:10:14] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:10:14] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:10:29] [main] WARN  pages.booking.BookingPage - ⚠️ Popup vẫn mở, click ra ngoài để đóng
+[2025-10-16 20:10:50] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày và click Tìm kiếm: Expected condition failed: waiting for element to be clickable: By.xpath: //button[normalize-space()='Tìm kiếm'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54958/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38434568eca5f121b33851e02a1e0796
+[2025-10-16 20:12:38] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:12:51] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:12:52] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:12:52] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:12:52] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:12:53] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-16 20:12:53] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:12:53] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:12:54] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:13:09] [main] WARN  pages.booking.BookingPage - ⚠️ Popup vẫn mở, click ra ngoài để đóng
+[2025-10-16 20:13:09] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 20:14:17] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:14:30] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:14:31] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:14:31] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:14:31] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:14:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-16 20:14:32] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:14:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:14:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:14:47] [main] WARN  pages.booking.BookingPage - ⚠️ Popup vẫn mở, click ra ngoài để đóng
+[2025-10-16 20:14:47] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 20:26:13] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:26:26] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:26:26] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:26:26] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:26:26] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:26:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:26:27] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 20:26:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 20:26:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 20:26:42] [main] WARN  pages.booking.BookingPage - ⚠️ Popup vẫn mở, click ra ngoài để đóng
+[2025-10-16 20:26:42] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 20:29:37] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:30:02] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:30:15] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:30:15] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:30:15] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:30:15] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:30:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:30:17] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 20:30:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 20:30:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 20:30:36] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:30:49] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:30:49] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:30:49] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:30:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:30:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:30:50] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 20:30:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 20:30:51] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 20:31:03] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày và click Tìm kiếm: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e37d34f09d4ef91384f15ebc9d3a2e0d, findElement {value=.rdrCalendarWrapper, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55663}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55663/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e37d34f09d4ef91384f15ebc9d3a2e0d
+[2025-10-16 20:31:13] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:31:26] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:31:26] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:31:26] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:31:26] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:31:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:31:27] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 20:31:28] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 20:31:28] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 20:31:43] [main] WARN  pages.booking.BookingPage - ⚠️ Popup vẫn mở, click ra ngoài để đóng
+[2025-10-16 20:31:43] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 20:57:47] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 20:58:00] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 20:58:00] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 20:58:00] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 20:58:01] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 20:58:01] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 20:58:01] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-16 20:58:06] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 20:58:06] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 20:58:07] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 20:58:07] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 21:09:05] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:09:05] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:09:33] [main] ERROR pages.booking.BookingPage - ❌ Không tìm thấy phòng: Phòng mùa hè
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: ((//p[contains(@class,'text-xl') and normalize-space()='Phòng mùa hè'])  |  (//span[contains(@class,'truncate') and normalize-space()='Phòng mùa hè']))[1] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56233/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0a15e095a288f9a5945c12ee11b8abf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.booking.BookingPage.selectPhong(BookingPage.java:59)
+	at scripts.BookingTest.testBookingRoomFromExcel(BookingTest.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2025-10-16 21:12:43] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:12:43] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:12:49] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:12:49] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:13:32] [main] ERROR pages.booking.BookingPage - ❌ Không tìm thấy phòng: Phòng mùa hè
+[2025-10-16 21:13:35] [main] ERROR pages.booking.BookingPage - ❌ Không tìm thấy phòng: Phòng mùa hè
+[2025-10-16 21:14:00] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:14:00] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:14:49] [main] ERROR pages.booking.BookingPage - ❌ Không tìm thấy phòng: Phòng mùa hè
+[2025-10-16 21:17:09] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:17:09] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:18:26] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:18:26] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:19:23] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:19:23] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:22:04] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-16 21:22:04] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-16 21:22:44] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-16 21:22:59] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking (JS)
+[2025-10-16 21:23:00] [main] INFO  scripts.BookingTest - ✅ Kết quả booking: Thêm mới thành công!
+[2025-10-16 21:25:58] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 21:26:13] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 21:26:13] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 21:26:13] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 21:26:14] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 21:26:15] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 21:26:15] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-16 21:26:20] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 21:26:20] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 21:26:20] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 21:26:20] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 21:29:37] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 21:29:50] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 21:29:50] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 21:29:50] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 21:29:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 21:29:51] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 21:29:51] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-16 21:29:56] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 21:29:56] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 21:29:57] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 21:29:57] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 21:30:26] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 21:30:39] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 21:30:39] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 21:30:39] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 21:30:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 21:30:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 21:30:40] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-16 21:30:45] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 21:30:46] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 21:30:46] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 21:30:46] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 21:31:13] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-16 21:31:13] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-16 21:31:13] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-16 21:35:23] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 21:35:36] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 21:35:36] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 21:35:36] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 21:35:37] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 21:35:38] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 21:35:38] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-16 21:35:43] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 21:35:43] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 21:35:43] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 21:35:43] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 21:36:07] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-16 21:36:20] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-16 21:36:20] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-16 21:36:20] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-16 21:36:20] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-16 21:36:22] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-16 21:36:22] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-16 21:36:27] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-16 21:36:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-16 21:36:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-16 21:36:27] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-16 21:36:54] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 19:26:34] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 19:26:48] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 19:26:48] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 19:26:48] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 19:26:48] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 19:26:49] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 19:26:49] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 19:26:54] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 19:26:54] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 19:26:54] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 19:26:54] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 19:27:21] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 19:27:21] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-17 19:27:21] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-17 19:39:58] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 19:40:11] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 19:40:11] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 19:40:11] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 19:40:11] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 19:40:12] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 19:40:12] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 19:40:17] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 19:40:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 19:40:18] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 19:40:18] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 19:40:44] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 19:40:44] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-17 19:40:44] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-17 19:45:15] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 19:45:28] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 19:45:28] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 19:45:28] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 19:45:28] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 19:45:29] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 19:45:29] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 19:45:34] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 19:45:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 19:45:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 19:45:35] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 19:49:18] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 19:49:30] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 19:49:31] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 19:49:31] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 19:49:31] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 19:49:32] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 19:49:32] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 19:49:37] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 19:49:37] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 19:49:38] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 19:49:38] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 19:49:53] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 19:49:53] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-17 19:49:53] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-17 19:58:28] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 19:58:41] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 19:58:41] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 19:58:41] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 19:58:41] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 19:58:42] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 19:58:42] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 19:58:47] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 19:58:48] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 19:58:48] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 19:58:48] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 19:59:14] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 19:59:15] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-17 19:59:15] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-17 19:59:18] [main] INFO  scripts.BookingTest - 🏠 Đã click nút Home để quay lại trang chính
+[2025-10-17 19:59:19] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 19:59:19] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 19:59:19] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 19:59:19] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 19:59:21] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 19:59:21] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 19:59:26] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 19:59:26] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 19:59:26] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 19:59:26] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 19:59:53] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 19:59:53] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-17 19:59:53] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 2: Cần Thơ - Closer home!!!!
+[2025-10-17 19:59:53] [main] INFO  scripts.BookingTest - 📩 Thông báo hiển thị: Không tìm thấy thông báo lỗi!
+[2025-10-17 19:59:53] [main] ERROR scripts.BookingTest - ❌ Test fail: Không có thông báo 'phòng đã được đặt rồi'
+[2025-10-17 20:07:18] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 20:07:31] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 20:07:31] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:07:31] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:07:52] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn tháng/năm: Expected condition failed: waiting for text ('October') to be present in element found by By.xpath: //span[@class='rdrMonthPicker']//option[@selected] (tried for 15 second(s) with 500 milliseconds interval)
+[2025-10-17 20:07:52] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày và click Tìm kiếm: Không thể chọn tháng/năm
+[2025-10-17 20:12:59] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:13:27] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:13:27] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:13:27] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:13:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:13:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:13:27] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:13:27] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:13:28] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:13:28] [main] WARN  pages.booking.BookingPage - ❌ Ngày nhận phòng không khớp! Expected: 20-10-2025, Actual: 
+[2025-10-17 20:13:28] [main] WARN  pages.booking.BookingPage - ❌ Ngày trả phòng không khớp! Expected: 05-11-2025, Actual: 
+[2025-10-17 20:13:28] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-17 20:22:32] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 20:22:44] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 20:22:45] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:22:45] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:22:45] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:22:45] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 20:22:45] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 20:22:50] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:22:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:22:51] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:22:51] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 20:23:17] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 20:23:18] [main] ERROR pages.booking.BookingPage - ❌ Không tìm thấy nút Xác nhận booking!
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [243855a2ef0e54fda7663449171887d0, findElement {using=xpath, value=//button[normalize-space()='Xác nhận']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61972/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 243855a2ef0e54fda7663449171887d0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.booking.BookingPage.clickBooking(BookingPage.java:90)
+	at scripts.BookingTest.testTimKiemVaBookingLai(BookingTest.java:170)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2025-10-17 20:23:18] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-17 20:25:47] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:26:16] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:26:16] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:26:16] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:26:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:26:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:26:17] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:26:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:26:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:26:38] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Nhận phòng')]/following-sibling::div//p (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62142/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 966bf4535cdb96833fc78bf9e14d4f40
+[2025-10-17 20:27:36] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:28:04] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:28:04] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:28:04] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:28:04] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:28:05] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:28:05] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:28:05] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:28:05] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:28:26] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Nhận phòng')]/following-sibling::div//p (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62259/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 853b94a45c246a26856443c39cd729c7
+[2025-10-17 20:29:01] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:29:29] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:29:29] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:29:29] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:29:30] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:29:30] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:29:30] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:29:30] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:29:30] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:29:30] [main] WARN  pages.booking.BookingPage - ❌ Ngày nhận phòng không khớp! Expected: 20-10-2025, Actual: 
+[2025-10-17 20:29:30] [main] WARN  pages.booking.BookingPage - ❌ Ngày trả phòng không khớp! Expected: 05-11-2025, Actual: 
+[2025-10-17 20:29:30] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-17 20:34:11] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:34:39] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:34:39] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:34:39] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:34:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:34:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:34:40] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:34:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:34:40] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:34:50] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Nhận phòng')]/following-sibling::div//input"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7111fc701b5b5b086602e9745573668, findElement {using=xpath, value=//div[contains(text(),'Nhận phòng')]/following-sibling::div//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62592/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7111fc701b5b5b086602e9745573668
+[2025-10-17 20:38:32] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:39:00] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:39:00] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:39:00] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:39:01] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:39:01] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:39:01] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:39:01] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:39:01] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:39:01] [main] WARN  pages.booking.BookingPage - ❌ Ngày nhận phòng không khớp! Expected: 20-10-2025, Actual: 
+[2025-10-17 20:39:01] [main] WARN  pages.booking.BookingPage - ❌ Ngày trả phòng không khớp! Expected: 05-11-2025, Actual: 
+[2025-10-17 20:39:01] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-17 20:41:21] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:41:49] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:41:49] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:41:49] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:41:49] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:41:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:41:50] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:41:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:41:50] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:41:50] [main] WARN  pages.booking.BookingPage - ❌ Ngày nhận phòng không khớp! Expected: 20-10-2025, Actual: 
+[2025-10-17 20:41:50] [main] WARN  pages.booking.BookingPage - ❌ Ngày trả phòng không khớp! Expected: 05-11-2025, Actual: 
+[2025-10-17 20:41:50] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-17 20:49:11] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:49:40] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:49:40] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:49:40] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:49:41] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:49:41] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:49:41] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:49:41] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:49:41] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:49:42] [main] INFO  pages.booking.BookingPage - Ngày nhận hiển thị: 20-10-2025
+[2025-10-17 20:49:42] [main] INFO  pages.booking.BookingPage - Ngày trả hiển thị: 05-11-2025
+[2025-10-17 20:49:42] [main] INFO  pages.booking.BookingPage - ✅ Ngày nhận phòng hiển thị khớp: 20-10-2025
+[2025-10-17 20:49:42] [main] INFO  pages.booking.BookingPage - ✅ Ngày trả phòng hiển thị khớp: 05-11-2025
+[2025-10-17 20:49:42] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-17 20:50:02] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 20:50:15] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 20:50:15] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:50:15] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:50:16] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:50:17] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 20:50:17] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 20:50:22] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:50:22] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:50:22] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:50:22] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 20:50:44] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 20:50:59] [main] ERROR pages.booking.BookingPage - ❌ Không tìm thấy nút Xác nhận booking!
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd17baa28d31a6f41aa66cb66cf5d0c9, findElement {value=//button[normalize-space()='Xác nhận'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63725/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd17baa28d31a6f41aa66cb66cf5d0c9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.booking.BookingPage.clickBooking(BookingPage.java:90)
+	at scripts.BookingTest.testTimKiemVaBookingLai(BookingTest.java:170)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2025-10-17 20:50:59] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-17 20:57:06] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:57:34] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:57:34] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:57:34] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:57:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:57:35] [main] INFO  pages.booking.BookingPage - 📅 Đang chọn ngày 20 trong tháng October 2025
+[2025-10-17 20:57:56] [main] ERROR pages.booking.BookingPage - ❌ Không chọn được ngày 20: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'rdrMonth')][.//select/option[@selected and normalize-space(text())='October'] and .//select/option[@selected and normalize-space(text())='2025']]//button[contains(@class,'rdrDay')]//span[@class='rdrDayNumber']/span[text()='20'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64401/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 805cee4c4b2d59294a5e3835a5f2488c
+[2025-10-17 20:57:56] [main] ERROR pages.booking.BookingPage - ❌ Lỗi khi chọn ngày nhận/trả phòng: Không thể chọn ngày 20
+[2025-10-17 20:59:05] [main] INFO  scripts.BookingTest - 🔹 Running chọn ngày nhận/trả phòng cho email: blue299@gmail.com
+[2025-10-17 20:59:33] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 20 October/2025 → 5 November/2025
+[2025-10-17 20:59:34] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 20:59:34] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 20:59:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 20:59:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 20
+[2025-10-17 20:59:34] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 20:59:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 20:59:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 20:59:35] [main] INFO  pages.booking.BookingPage - Ngày nhận hiển thị: 20-10-2025
+[2025-10-17 20:59:35] [main] INFO  pages.booking.BookingPage - Ngày trả hiển thị: 05-11-2025
+[2025-10-17 20:59:35] [main] INFO  pages.booking.BookingPage - ✅ Ngày nhận phòng hiển thị khớp: 20-10-2025
+[2025-10-17 20:59:35] [main] INFO  pages.booking.BookingPage - ✅ Ngày trả phòng hiển thị khớp: 05-11-2025
+[2025-10-17 20:59:35] [main] INFO  scripts.BookingTest - ✅ Đã chọn ngày nhận/trả phòng thành công
+[2025-10-17 20:59:53] [main] INFO  scripts.BookingTest - 🔹 Running test tìm kiếm & booking lại cho email: blue299@gmail.com
+[2025-10-17 21:00:06] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 21:00:06] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 21:00:06] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 21:00:06] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 21:00:07] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 21:00:07] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 21:00:12] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 21:00:12] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 21:00:12] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 21:00:12] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 21:00:39] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 21:00:39] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-17 21:00:39] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 1: Cần Thơ - Closer home!!!!
+[2025-10-17 21:00:43] [main] INFO  scripts.BookingTest - 🏠 Đã click nút Home để quay lại trang chính
+[2025-10-17 21:00:44] [main] INFO  pages.booking.BookingPage - 🔍 Bắt đầu chọn ngày nhận/trả và click Tìm kiếm
+[2025-10-17 21:00:44] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-17 21:00:44] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-17 21:00:44] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-17 21:00:45] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 25
+[2025-10-17 21:00:45] [main] INFO  pages.booking.BookingPage - ⏳ Đợi 5s trước khi chọn ngày trả phòng...
+[2025-10-17 21:00:50] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: November 2025
+[2025-10-17 21:00:51] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn November 2025
+[2025-10-17 21:00:51] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 5
+[2025-10-17 21:00:51] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Tìm kiếm
+[2025-10-17 21:01:17] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-17 21:01:17] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-17 21:01:17] [main] INFO  scripts.BookingTest - ✅ Đã click đặt phòng lần 2: Cần Thơ - Closer home!!!!
+[2025-10-17 21:01:17] [main] INFO  scripts.BookingTest - 📩 Thông báo hiển thị: Không tìm thấy thông báo lỗi!
+[2025-10-17 21:01:17] [main] ERROR scripts.BookingTest - ❌ Test fail: Không có thông báo 'phòng đã được đặt rồi'
+[2025-10-18 19:14:38] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-18 19:14:38] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-18 19:15:22] [main] INFO  pages.booking.BookingPage - ❌ Lỗi login hiển thị: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-18 19:15:48] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-18 19:15:48] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-18 19:16:28] [main] INFO  pages.booking.BookingPage - ❌ Lỗi login hiển thị: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-18 19:16:48] [main] INFO  scripts.BookingTest - ✅ Kết quả booking: 
+[2025-10-18 19:20:56] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-18 19:20:56] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-18 19:21:40] [main] INFO  pages.booking.BookingPage - ❌ Lỗi login hiển thị: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-18 19:22:01] [main] INFO  scripts.BookingTest - ✅ Kết quả booking: 
+[2025-10-18 19:23:53] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-18 19:23:53] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-18 19:24:33] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-18 19:24:33] [main] INFO  pages.booking.BookingPage - ✅ Đã click nút Xác nhận booking
+[2025-10-18 19:24:34] [main] INFO  scripts.BookingTest - ✅ Kết quả booking: Thêm mới thành công!
+[2025-10-18 19:24:54] [main] WARN  pages.booking.PaymentPage - ⚠️ Không phát hiện trang hoặc nút thanh toán!
+[2025-10-18 19:43:05] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-18 19:43:05] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-18 19:43:33] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 10 October/2025 → 12 October/2025
+[2025-10-18 19:43:34] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-18 19:43:34] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-18 19:43:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-18 19:43:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 10
+[2025-10-18 19:43:34] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-18 19:43:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-18 19:43:34] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 12
+[2025-10-18 19:43:35] [main] INFO  pages.booking.BookingPage - Ngày nhận hiển thị: 19-10-2025
+[2025-10-18 19:43:35] [main] INFO  pages.booking.BookingPage - Ngày trả hiển thị: 26-10-2025
+[2025-10-18 19:43:35] [main] WARN  pages.booking.BookingPage - ❌ Ngày nhận phòng không khớp! Expected: 10-10-2025, Actual: 19-10-2025
+[2025-10-18 19:43:35] [main] WARN  pages.booking.BookingPage - ❌ Ngày trả phòng không khớp! Expected: 12-10-2025, Actual: 26-10-2025
+[2025-10-19 09:00:50] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-19 09:01:18] [main] INFO  pages.booking.BookingPage - 📅 Bắt đầu chọn ngày nhận/trả phòng: 10 October/2025 → 12 October/2025
+[2025-10-19 09:01:18] [main] INFO  pages.booking.BookingPage - ✅ Đã mở calendar
+[2025-10-19 09:01:18] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-19 09:01:19] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-19 09:01:19] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 10
+[2025-10-19 09:01:19] [main] INFO  pages.booking.BookingPage - 📅 Chọn tháng và năm: October 2025
+[2025-10-19 09:01:19] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn October 2025
+[2025-10-19 09:01:19] [main] INFO  pages.booking.BookingPage - ✅ Đã chọn ngày 12
+[2025-10-19 09:01:19] [main] INFO  pages.booking.BookingPage - Ngày nhận hiển thị: 20-10-2025
+[2025-10-19 09:01:19] [main] INFO  pages.booking.BookingPage - Ngày trả hiển thị: 27-10-2025
+[2025-10-19 09:01:19] [main] WARN  pages.booking.BookingPage - ❌ Ngày nhận phòng không khớp! Expected: 10-10-2025, Actual: 20-10-2025
+[2025-10-19 09:01:19] [main] WARN  pages.booking.BookingPage - ❌ Ngày trả phòng không khớp! Expected: 12-10-2025, Actual: 27-10-2025
+[2025-10-19 09:01:29] [main] INFO  pages.booking.BookingPage - ⏳ Không có lỗi login → tiếp tục flow booking
+[2025-10-19 09:33:37] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 09:34:35] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 09:36:01] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-19 09:36:13] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 09:36:13] [main] INFO  pages.booking.DashboardPage - 🔹 Chọn Dashboard...
+[2025-10-19 09:36:24] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-19 09:38:52] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard với Email=blue299@gmail.com | Phòng=Phòng mùa hè
+[2025-10-19 09:38:52] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-19 09:39:04] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 09:39:04] [main] INFO  pages.booking.DashboardPage - 🔹 Chọn Dashboard...
+[2025-10-19 09:39:15] [main] INFO  scripts.BookingTest - 🔍 Kiểm tra thông tin phòng: Phòng mùa hè
+[2025-10-19 09:39:15] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Phòng mùa hè
+[2025-10-19 09:42:03] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-19 09:42:03] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-19 09:42:14] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 09:42:15] [main] INFO  pages.booking.DashboardPage - 🔹 Chọn Dashboard...
+[2025-10-19 09:42:25] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-19 09:42:25] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-19 09:47:46] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-19 09:47:46] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-19 09:47:57] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 09:47:57] [main] INFO  pages.booking.DashboardPage - 🔹 Chọn Dashboard...
+[2025-10-19 09:52:16] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-19 09:52:16] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-19 09:52:27] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 09:52:28] [main] INFO  pages.booking.DashboardPage - 🔹 Chọn Dashboard...
+[2025-10-19 10:46:56] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-19 10:46:56] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-19 10:47:07] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 10:47:08] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-19 10:47:08] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load...
+[2025-10-19 11:02:11] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-19 11:02:11] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-19 11:02:22] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-19 11:02:23] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-19 11:02:23] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load...
+[2025-10-19 17:48:24] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-19 17:48:24] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 17:55:04] [main] INFO  scripts.BookingTest - ➡ Bắt đầu kiểm tra thông tin số khách và giá tiền 
+[2025-10-20 17:59:01] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 17:59:01] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 17:59:13] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-20 17:59:13] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 17:59:14] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load...
+[2025-10-20 18:11:52] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:11:52] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:12:03] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-20 18:13:35] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:13:35] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:13:47] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-20 18:13:48] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:13:48] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load...
+[2025-10-20 18:14:11] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:14:11] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:14:31] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:14:31] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:14:33] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-20 18:14:34] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:14:34] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load...
+[2025-10-20 18:21:49] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:21:49] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:22:00] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-20 18:22:01] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:22:01] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load...
+[2025-10-20 18:28:37] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:28:37] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:28:48] [main] INFO  pages.booking.DashboardPage - 🔹 Mở menu người dùng...
+[2025-10-20 18:28:48] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 18:28:49] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:28:49] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load...
+[2025-10-20 18:31:56] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:31:56] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:32:08] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 18:32:08] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 18:32:08] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 18:32:09] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:32:09] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 18:33:55] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:33:55] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:34:06] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 18:34:06] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 18:34:11] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 18:34:11] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 18:34:12] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:34:12] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 18:34:12] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 18:34:12] [main] INFO  pages.booking.DashboardPage - 🛏️ Click vào phòng đầu tiên trong Dashboard...
+[2025-10-20 18:34:12] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 18:34:12] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 18:36:19] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:36:19] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:36:30] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 18:36:30] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 18:36:35] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 18:36:35] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 18:36:36] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:36:36] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 18:36:36] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 18:36:36] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 18:36:36] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 18:39:57] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 18:39:58] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 18:40:09] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 18:40:09] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 18:40:14] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 18:40:14] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 18:40:14] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 18:40:14] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 18:40:15] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 18:40:15] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 18:40:15] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 20:51:05] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 20:51:05] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 20:51:16] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 20:51:16] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 20:51:21] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 20:51:21] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 20:54:11] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 20:54:11] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 20:54:22] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 20:54:23] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 20:54:28] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 20:54:28] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 20:54:28] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 20:54:28] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 20:54:29] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 20:54:29] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 20:54:29] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 21:07:27] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 21:07:27] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 21:07:39] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 21:07:39] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 21:07:44] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 21:07:44] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 21:07:44] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 21:07:44] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 21:10:16] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 21:10:16] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 21:10:28] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 21:10:28] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 21:10:33] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 21:10:33] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 21:10:33] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 21:10:34] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 21:10:34] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 21:10:34] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 21:10:34] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 21:19:55] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 21:19:55] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 21:20:06] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 21:20:06] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 21:20:11] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 21:20:12] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 21:20:12] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 21:20:12] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 21:20:12] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 21:20:12] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 21:20:12] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 21:22:55] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 21:22:55] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 21:23:07] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 21:23:07] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 21:23:12] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 21:23:12] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 21:23:12] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 21:23:12] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 21:23:13] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 21:23:13] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 21:23:13] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 21:25:36] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 21:25:36] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 21:25:47] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 21:25:48] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 21:25:53] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 21:25:53] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 21:25:53] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 21:25:53] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 21:25:54] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - 🔹 Số thẻ roomCards tìm thấy: 5
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: Phòng mùa hè
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
+[2025-10-20 21:25:54] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
+[2025-10-20 21:27:34] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 21:27:34] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 21:27:46] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 21:27:46] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 21:27:51] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 21:27:51] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 21:27:52] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 21:27:52] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 21:27:52] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 21:27:52] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 21:27:52] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 21:27:52] [main] INFO  pages.booking.DashboardPage - 🔹 Số thẻ roomCards tìm thấy: 2
+[2025-10-20 21:27:52] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: Xác minh danh tính
+[2025-10-20 21:27:52] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: Xác minh danh tính
+[2025-10-20 21:29:13] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-20 21:29:13] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-20 21:29:24] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-20 21:29:24] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-20 21:29:29] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-20 21:29:29] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - 🔹 Click Dashboard...
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ trang Dashboard load danh sách phòng...
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - ✅ Dashboard đã load danh sách phòng.
+[2025-10-20 21:29:30] [main] INFO  scripts.BookingTest - 🔍 Tìm và kiểm tra thông tin phòng: Fisherman homestay
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - 🔍 Cuộn để tìm phòng: Fisherman homestay
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - 🔹 Số thẻ roomCards tìm thấy: 5
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: Phòng mùa hè
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
+[2025-10-20 21:29:30] [main] INFO  pages.booking.DashboardPage - ➡ Tên phòng trong thẻ: 
