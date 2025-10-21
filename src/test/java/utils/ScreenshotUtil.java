@@ -11,32 +11,35 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ScreenshotUtil {
-    public static String captureScreenshot(WebDriver driver, String namePrefix){
-        //kiểm tra xem driver có hỗ trợ không
-        if(!(driver instanceof TakesScreenshot)){
-            System.out.println("Driver không hỗ trợ chụp màn hình");
+
+    public static String captureScreenshot(WebDriver driver, String namePrefix) {
+        // Kiểm tra driver có hỗ trợ chụp màn hình không
+        if (!(driver instanceof TakesScreenshot)) {
+            System.out.println("⚠️ Driver không hỗ trợ chụp màn hình");
+            return null;
         }
 
-        //thực hiện thao tác chụp mành hình và lưu mục ảo
+        // Chụp màn hình tạm
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-        //Tạo chuỗi thời gian
+        // Chuỗi thời gian cho tên file (ví dụ: 20251021_183245)
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-//        20250713_091230
-        //Tạo nơi lưu file hình ảnh
+
+        // Thư mục và file đích
         File destDir = new File("reports/screenshots");
         File destFile = new File(destDir, namePrefix + "_" + timeStamp + ".png");
 
-        try{
+        try {
             Files.createDirectories(destDir.toPath());
             Files.copy(srcFile.toPath(), destFile.toPath());
 
-            System.out.println("Đã chụp màn hình: " + destFile.getAbsolutePath());
+            System.out.println("✅ Đã chụp màn hình: " + destFile.getAbsolutePath());
 
-            // Trả về đường dẫn tương đối tính từ ExtentReport.html
+            // Trả về đường dẫn tương đối (phục vụ cho Extent Report)
             return "screenshots/" + destFile.getName();
+
         } catch (IOException e) {
-            System.out.println("Loi luu anh");
+            System.out.println("❌ Lỗi lưu ảnh: " + e.getMessage());
             return null;
         }
     }
