@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4644470f-90a6-4083-aa4b-44b192d44ea4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Testing05_Nhom2-Hieu_Profile1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Testing05_Nhom2-Hieu_Signout.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/logs/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/ProfileTests_Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/Screenshot 2025-10-19 151549.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/testLoginAndSignout_20251019_151558.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/testProfileUpdateFlow_20251021_021132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/testProfileUpdateFlow_20251021_021506.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/testProfileUpdateFlow_20251021_021911.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/testProfileUpdateFlow_20251021_025643.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/testProfileUpdateFlow_20251021_025716.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/reports/screenshots/testProfileUpdateFlow_20251021_030007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/main/java/org/example/Signup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/base/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/listener/ExtentReportListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/listener/SimpleListeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/pages/profile/ProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/scripts/ProfileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/utils/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/utils/ExcelReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/utils/ExtentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/java/utils/ScreenshotUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/resources/Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/resources/avatar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/resources/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/resources/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/resources/avatar4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/src/test/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Profile1/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/logs/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/reports/screenshots/Screenshot 2025-10-19 151549.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/reports/screenshots/testLoginAndSignout_20251019_151558.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/base/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/listener/ExtentReportListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/listener/SimpleListeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/pages/signout/SignoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/scripts/SignoutTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/utils/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/utils/ExcelReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/utils/ExtentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/java/utils/ScreenshotUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/resources/Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/src/test/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing05_Nhom2-Hieu_Signout/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="34NVW13eqmQqOiQrluu7ZJfviDG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.BookingTest.testBookingRoomFromExcel.executor": "Run",
+    "TestNG.BookingTest.testChonNgayBooking.executor": "Run",
+    "TestNG.BookingTest.testDashboardAfterBooking.executor": "Run",
+    "TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml.executor": "Run",
+    "TestNG.LoginTest.loginWithEnter.executor": "Run",
+    "TestNG.LoginTest.testPasswordTooLong.executor": "Run",
+    "TestNG.RegisterTest.registerWithEnter.executor": "Run",
+    "TestNG.RegisterTest.testRedirectedSuccessfully.executor": "Run",
+    "TestNG.RegisterTest.testSelectBirthdayFromCalendar.executor": "Run",
+    "TestNG.RegisterTest.togglePassword.executor": "Run",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml">
+    <configuration name="BookingTest.testBookingRoomFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
+      <option name="METHOD_NAME" value="testBookingRoomFromExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.testChonNgayBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
+      <option name="METHOD_NAME" value="testChonNgayBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.testDashboardAfterBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
+      <option name="METHOD_NAME" value="testDashboardAfterBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testPasswordTooLong" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.LoginTest" />
+      <option name="METHOD_NAME" value="testPasswordTooLong" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml" />
+        <item itemvalue="TestNG.BookingTest.testChonNgayBooking" />
+        <item itemvalue="TestNG.BookingTest.testBookingRoomFromExcel" />
+        <item itemvalue="TestNG.LoginTest.testPasswordTooLong" />
+        <item itemvalue="TestNG.BookingTest.testDashboardAfterBooking" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4644470f-90a6-4083-aa4b-44b192d44ea4" name="Changes" comment="" />
+      <created>1761054045800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761054045800</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/LoginTest.java</url>
+          <line>83</line>
+          <properties class="scripts.LoginTest" method="testPasswordTooLong">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java</url>
+          <line>123</line>
+          <properties class="scripts.RegisterTest" method="registerWithEnter">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
