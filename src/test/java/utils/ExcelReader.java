@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class ExcelReader {
 
-    // Đọc 1 ô
+    // 📘 Đọc 1 ô (rowIndex, colIndex)
     public static String getCellData(String filePath, String sheetName, int rowIndex, int colIndex) {
         try (FileInputStream fis = new FileInputStream(filePath);
              Workbook workbook = new XSSFWorkbook(fis)) {
@@ -24,14 +24,14 @@ public class ExcelReader {
             if (cell == null) return "";
 
             DataFormatter formatter = new DataFormatter();
-            return formatter.formatCellValue(cell);
+            return formatter.formatCellValue(cell).trim();
 
         } catch (IOException e) {
             throw new RuntimeException("❌ Error reading Excel file: " + e.getMessage(), e);
         }
     }
 
-    // Đọc toàn bộ sheet → trả về Object[][]
+    // 📗 Đọc toàn bộ sheet → trả về Object[][] (dùng cho DataProvider)
     public static Object[][] getData(String filePath, String sheetName) {
         try (FileInputStream fis = new FileInputStream(filePath);
              Workbook workbook = new XSSFWorkbook(fis)) {
@@ -43,16 +43,19 @@ public class ExcelReader {
             int rowCount = sheet.getPhysicalNumberOfRows();
             int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
 
-            Object[][] data = new Object[rowCount - 1][colCount - 1]; // bỏ header + cột STT
+            // Bỏ hàng tiêu đề, bắt đầu từ hàng 1
+            Object[][] data = new Object[rowCount - 1][colCount];
+
+            DataFormatter formatter = new DataFormatter();
 
             for (int i = 1; i < rowCount; i++) {
                 Row row = sheet.getRow(i);
-                for (int j = 1; j < colCount; j++) {
-                    Cell cell = row.getCell(j);
-                    DataFormatter formatter = new DataFormatter();
-                    data[i - 1][j - 1] = formatter.formatCellValue(cell);
+                for (int j = 0; j < colCount; j++) {
+                    Cell cell = (row != null) ? row.getCell(j) : null;
+                    data[i - 1][j] = (cell != null) ? formatter.formatCellValue(cell).trim() : "";
                 }
             }
+
             return data;
 
         } catch (IOException e) {
