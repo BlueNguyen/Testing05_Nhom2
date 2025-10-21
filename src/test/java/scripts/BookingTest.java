@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.booking.*;
-import pages.LoginPage;
+import pages.auth.LoginPage;
 import utils.ExcelReader;
 
 import java.time.Duration;

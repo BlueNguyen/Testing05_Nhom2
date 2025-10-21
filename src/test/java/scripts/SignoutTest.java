@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.LoginPage;
+import pages.auth.LoginPage;
 import pages.signout.SignoutPage;
 import utils.ExcelReader;
 

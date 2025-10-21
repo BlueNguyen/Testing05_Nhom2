@@ -1,0 +1,70 @@
+[2025-10-21 22:57:38] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-21 22:57:38] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-21 23:03:41] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail.com
+[2025-10-21 23:03:41] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-21 23:03:46] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-21 23:03:46] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-21 23:03:48] [main] INFO  scripts.LoginTest - Đang test với email: 
+[2025-10-21 23:03:48] [main] INFO  scripts.LoginTest - Đang test với password: 
+[2025-10-21 23:06:29] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:06:30] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-21 23:06:30] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-21 23:06:32] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-21 23:06:32] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-21 23:06:44] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-21 23:06:44] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-21 23:06:46] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-21 23:07:13] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:07:19] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:22:08] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:24:13] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:25:03] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:25:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-21 23:25:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-21 23:25:05] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-21 23:25:05] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-21 23:25:16] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-21 23:25:17] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-21 23:25:22] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-21 23:25:22] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-21 23:26:16] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:26:17] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-21 23:26:17] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-21 23:26:19] [main] INFO  scripts.BookingTest - 🔹 Kiểm tra thông tin đặt phòng trong Dashboard...
+[2025-10-21 23:26:19] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-21 23:26:30] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ giao diện sau khi login hiển thị avatar...
+[2025-10-21 23:26:30] [main] INFO  pages.booking.DashboardPage - ⏸️ Đợi thêm 5 giây để giao diện ổn định...
+[2025-10-21 23:26:35] [main] INFO  pages.booking.DashboardPage - 🔹 Click avatar để mở menu người dùng...
+[2025-10-21 23:26:35] [main] INFO  pages.booking.DashboardPage - ⏳ Chờ popup menu người dùng hiển thị...
+[2025-10-21 23:26:51] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-21 23:26:51] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-21 23:26:53] [main] INFO  scripts.BookingTest - ➡ Đăng nhập với tài khoản: blue299@gmail.com
+[2025-10-21 23:27:04] [main] INFO  scripts.BookingTest - ➡ Bắt đầu kiểm tra thông tin số khách và giá tiền 
+[2025-10-21 23:31:37] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:31:37] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-21 23:31:37] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-21 23:32:00] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:34:16] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-21 23:34:42] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+

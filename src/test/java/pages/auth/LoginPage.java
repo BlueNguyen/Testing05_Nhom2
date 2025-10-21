@@ -1,7 +1,9 @@
 package pages.auth;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -11,6 +13,14 @@ public class LoginPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
+    // Các locator
+    private By loginIcon = By.xpath("//button[img[contains(@src,'6596121.png')]]");
+    private By loginBtnPopup = By.xpath("(//button[normalize-space()='Đăng nhập'])[1]");
+    private By emailField = By.name("email");
+    private By passwordField = By.name("password");
+    private By loginBtnModal = By.xpath("//button[@type='submit']");
+    private By registerBtn = By.xpath("//button[contains(@class,'bg-main') and normalize-space()='Đăng ký']");
+
     public LoginPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -18,40 +28,34 @@ public class LoginPage {
 
     // Mở form đăng nhập
     public void openLoginForm() {
-        // B1: mở popup login bằng icon avatar
-        By loginIcon = By.xpath("//button[img[contains(@src,'6596121.png')]]");
         wait.until(ExpectedConditions.elementToBeClickable(loginIcon)).click();
-
-        // B2: click nút "Đăng nhập" đầu tiên trong popup
-        By loginBtn = By.xpath("(//button[normalize-space()='Đăng nhập'])[1]");
-        wait.until(ExpectedConditions.elementToBeClickable(loginBtn)).click();
-
-        // B3: chờ trường email hiển thị
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("email")));
+        wait.until(ExpectedConditions.elementToBeClickable(loginBtnPopup)).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(emailField));
     }
 
     // Thực hiện đăng nhập
-    public void login(String email, String password) throws InterruptedException {
+    public void login(String email, String password) {
         openLoginForm();
-        driver.findElement(By.name("email")).sendKeys(email);
-        Thread.sleep(2000);
-        driver.findElement(By.name("password")).sendKeys(password);
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        driver.findElement(emailField).sendKeys(email);
+        driver.findElement(passwordField).sendKeys(password);
+
+        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(loginBtnModal));
+        safeClick(btn);
     }
 
     // Mở form đăng ký từ form đăng nhập
     public void openRegisterWithLogin() {
-        // B1: mở popup login bằng icon avatar
-        By loginIcon = By.xpath("//button[img[contains(@src,'6596121.png')]]");
         wait.until(ExpectedConditions.elementToBeClickable(loginIcon)).click();
-
-        // B2: mở form đăng nhập
-        By loginBtn = By.xpath("(//button[normalize-space()='Đăng nhập'])[1]");
-        wait.until(ExpectedConditions.elementToBeClickable(loginBtn)).click();
-
-        // B3: chuyển sang form đăng ký
-        By registerBtn = By.xpath("//button[contains(@class,'bg-main') and normalize-space()='Đăng ký']");
+        wait.until(ExpectedConditions.elementToBeClickable(loginBtnPopup)).click();
         wait.until(ExpectedConditions.elementToBeClickable(registerBtn)).click();
+    }
+
+    // Click an toàn
+    private void safeClick(WebElement element) {
+        try {
+            element.click();
+        } catch (Exception e) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        }
     }
 }

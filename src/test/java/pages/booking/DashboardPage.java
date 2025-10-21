@@ -67,16 +67,7 @@ public class DashboardPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(roomCards));
         logger.info("✅ Dashboard đã load danh sách phòng.");
 
-//        // Click phòng đầu tiên (nếu cần)
-//        List<WebElement> rooms = driver.findElements(roomCards);
-//        if (!rooms.isEmpty()) {
-//            logger.info("🛏️ Click vào phòng đầu tiên trong Dashboard...");
-//            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", rooms.get(0));
-//        } else {
-//            logger.warn("⚠️ Không tìm thấy phòng nào trong Dashboard!");
-//        }
     }
-
 
 
     public void scrollToBooking(String roomNameText) {
