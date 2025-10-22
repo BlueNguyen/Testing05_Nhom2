@@ -43,6 +43,16 @@ public class LoginPage {
         safeClick(btn);
     }
 
+    public void logins(String email, String password) {
+
+        driver.findElement(emailField).sendKeys(email);
+        driver.findElement(passwordField).sendKeys(password);
+
+        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(loginBtnModal));
+        safeClick(btn);
+
+    }
+
     // Mở form đăng ký từ form đăng nhập
     public void openRegisterWithLogin() {
         wait.until(ExpectedConditions.elementToBeClickable(loginIcon)).click();

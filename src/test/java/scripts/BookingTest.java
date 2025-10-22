@@ -39,7 +39,7 @@ public class BookingTest extends BaseTest {
         logger.info("➡ Login với email: {}", email);
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(email, password);
+        loginPage.logins(email, password);
 
         // 🏠 Chọn địa điểm
         bookingPage.selectDiaDiem(diaDiem);
@@ -97,7 +97,7 @@ public class BookingTest extends BaseTest {
 
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(email, password);
+        loginPage.logins(email, password);
 
         cancelPage.waitAndClickAvatarAgain();
         cancelPage.openDashboard();
@@ -117,7 +117,7 @@ public class BookingTest extends BaseTest {
 
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(email, password);
+        loginPage.logins(email, password);
 
         favoritePage.openDashboard();
         favoritePage.clickFavorite(phong);
@@ -137,7 +137,7 @@ public class BookingTest extends BaseTest {
         // 🔑 Login
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(email, password);
+        loginPage.logins(email, password);
 
         // 🏠 Chọn địa điểm và phòng
         bookingPage.selectDiaDiem(diaDiem);
@@ -159,7 +159,7 @@ public class BookingTest extends BaseTest {
         // 🔑 Login
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login(email, password);
+        loginPage.logins(email, password);
 
         // 🏠 Set cứng địa điểm và phòng
         diaDiem = "Cần Thơ";
