@@ -19,7 +19,7 @@ public class BaseBookingPage {
 
     public BaseBookingPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     // --- Hàm dùng chung: click an toàn ---

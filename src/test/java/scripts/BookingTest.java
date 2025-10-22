@@ -100,7 +100,8 @@ public class BookingTest extends BaseTest {
         loginPage.login(email, password);
 
         cancelPage.waitAndClickAvatarAgain();
-        cancelPage.openDashboard();
+        DashboardPage dashboard = new DashboardPage(driver);
+        dashboard.openDashboard();
         cancelPage.openRoomByName(phong);
         cancelPage.clickCancelBooking();
 
