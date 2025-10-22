@@ -38,7 +38,6 @@ public class DriverFactory {
                 WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--disable-notifications");
-                edgeOptions.addArguments("--start-maximized");
                 driver = new EdgeDriver(edgeOptions);
                 driver.manage().window().maximize();
                 break;
@@ -46,7 +45,6 @@ public class DriverFactory {
             default:
                 throw new IllegalArgumentException("Trình duyệt không được hỗ trợ: " + browserName);
         }
-
         return driver;
     }
 }

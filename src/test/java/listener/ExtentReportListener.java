@@ -3,76 +3,49 @@ package listener;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import org.openqa.selenium.WebDriver;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import utils.ExtentManager;
-import utils.ScreenshotUtil;
 
 public class ExtentReportListener implements ITestListener {
 
-    // Khởi tạo ExtentReports thông qua ExtentManager
-    public static ExtentReports extent;
+    private static ExtentReports extent = createInstance();
+    private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
-    // ThreadLocal để tránh xung đột khi chạy test song song
-    public static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
-
-    @Override
-    public void onStart(ITestContext context) {
-        String testName = context.getName(); // từ TestNG XML <test name="...">
-        String reportFileName = testName + "_Report.html";
-        extent = ExtentManager.createInstance(reportFileName);
+    private static ExtentReports createInstance() {
+        ExtentSparkReporter reporter = new ExtentSparkReporter("test-output/ExtentReport.html");
+        reporter.config().setReportName("Automation Report");
+        reporter.config().setDocumentTitle("Test Execution");
+        ExtentReports extent = new ExtentReports();
+        extent.attachReporter(reporter);
+        return extent;
     }
 
-    // Khi test bắt đầu
     @Override
     public void onTestStart(ITestResult result) {
+        // 🔹 Tạo test mới cho mỗi case
         ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName());
         test.set(extentTest);
     }
 
-    // Khi test pass
     @Override
     public void onTestSuccess(ITestResult result) {
-        test.get().log(Status.PASS, "✅ Test Passed");
+        test.get().log(Status.PASS, "✅ Test passed!");
     }
 
-    // Khi test fail
     @Override
     public void onTestFailure(ITestResult result) {
-        test.get().log(Status.FAIL, "❌ Test Failed: " + result.getThrowable());
-
-        WebDriver driver = (WebDriver) result.getTestContext().getAttribute("driver");
-        String methodName = result.getMethod().getMethodName();
-
-        if (driver != null) {
-            // Nhận đường dẫn ảnh sau khi chụp
-            String screenshotPath = ScreenshotUtil.captureScreenshot(driver, methodName);
-            if (screenshotPath != null) {
-                try {
-                    test.get().addScreenCaptureFromPath(screenshotPath);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }
+        test.get().log(Status.FAIL, "❌ Test failed: " + result.getThrowable());
     }
 
-    // Khi test bị bỏ qua (skip)
     @Override
     public void onTestSkipped(ITestResult result) {
-        test.get().log(Status.SKIP, "⚠️ Test Skipped");
+        test.get().log(Status.SKIP, "⚠️ Test skipped");
     }
 
-    // Khi toàn bộ test của một suite/class kết thúc
     @Override
     public void onFinish(ITestContext context) {
         extent.flush();
-    }
-
-    // Trả về test hiện tại, dùng nếu muốn log ở nơi khác
-    public static ExtentTest getTest() {
-        return test.get();
     }
 }
