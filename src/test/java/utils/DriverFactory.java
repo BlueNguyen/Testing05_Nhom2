@@ -38,6 +38,7 @@ public class DriverFactory {
                 WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--disable-notifications");
+                edgeOptions.addArguments("--start-maximized");
                 driver = new EdgeDriver(edgeOptions);
                 driver.manage().window().maximize();
                 break;
