@@ -66,6 +66,7 @@ mvnw.cmd
 # =========================
 logs/
 *.log
+app.log
 report/
 test-output/
 surefire-reports/

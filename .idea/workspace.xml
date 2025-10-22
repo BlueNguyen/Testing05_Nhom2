@@ -6,42 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4644470f-90a6-4083-aa4b-44b192d44ea4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/BookingTests_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/BookingTests_Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/Screenshot 2025-10-19 151549.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testLoginAndSignout_20251019_151558.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooLong_20251009_223820.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooShort_20251009_223829.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testProfileUpdateFlow_20251019_150438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/listener/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listener/ExtentReportListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/BaseBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/BaseBookingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/BookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/BookingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/CancelBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/CancelBookingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/FavoritePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/FavoritePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/signout/SignoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/signout/SignoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/SignoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/SignoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
