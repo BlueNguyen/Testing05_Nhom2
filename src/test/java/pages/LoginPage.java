@@ -9,7 +9,7 @@
 //
 //import java.time.Duration;
 //
-//public class LoginPage {
+//public class LoginPageBooking {
 //    private WebDriver driver;
 //    private WebDriverWait wait;
 //
@@ -17,7 +17,7 @@
 //    private By passwordField = By.id("password");
 //    private By loginBtnModal = By.xpath("//button[@type='submit' and normalize-space()='Đăng nhập']");
 //
-//    public LoginPage(WebDriver driver) {
+//    public LoginPageBooking(WebDriver driver) {
 //        this.driver = driver;
 //        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //    }

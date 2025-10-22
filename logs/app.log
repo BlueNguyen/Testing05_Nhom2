@@ -158,3 +158,83 @@ Session ID: 76ed4e983b7b28a770f8b03f9102e106
 [2025-10-22 15:17:11] [main] INFO  pages.booking.CancelBookingPage - ✅ Đã click vào phòng: Phòng mùa hè
 [2025-10-22 15:17:11] [main] INFO  pages.booking.CancelBookingPage - ➡ Tìm và click nút Huỷ phòng
 [2025-10-22 15:17:21] [main] ERROR pages.booking.CancelBookingPage - ❌ Không tìm thấy Button Huỷ phòng
+[2025-10-22 15:20:43] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:21:02] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:43:41] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:43:41] [main] WARN  org.testng.internal.Utils - The test method 'scripts.BookingTest.testBookingRoomFromExcel' will be skipped since its data provider 'BookingData' returned an empty array or iterator. 
+[2025-10-22 15:44:27] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:44:28] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:44:28] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:44:30] [main] INFO  scripts.BookingTest - 🔹 Test booking (NO LOGIN): DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-22 15:44:33] [main] INFO  pages.booking.BookingPage - ❌ Lỗi login hiển thị: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-22 15:44:33] [main] INFO  scripts.BookingTest - ❌ Thông báo khi chưa login: Vui lòng đăng nhập để tiếp tục đặt phòng.
+[2025-10-22 15:44:42] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:44:43] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:44:43] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:44:45] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-22 15:44:45] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-22 15:45:37] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:45:38] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:45:38] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:45:40] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-22 15:45:40] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-22 15:47:44] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:47:45] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:47:45] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:47:47] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue299@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-22 15:47:47] [main] INFO  scripts.BookingTest - ➡ Login với email: blue299@gmail.com
+[2025-10-22 15:51:02] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:51:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:51:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:51:06] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue2999@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-22 15:51:06] [main] INFO  scripts.BookingTest - ➡ Login với email: blue2999@gmail.com
+[2025-10-22 15:52:43] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:52:44] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:52:44] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:52:46] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail.com
+[2025-10-22 15:52:46] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-22 15:52:50] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-22 15:52:50] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-22 15:52:50] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:52:50] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:52:52] [main] INFO  scripts.LoginTest - Đang test với email: 
+[2025-10-22 15:52:52] [main] INFO  scripts.LoginTest - Đang test với password: 
+[2025-10-22 15:52:56] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-22 15:52:56] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-22 15:52:57] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:52:57] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:52:59] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy424@gmail
+[2025-10-22 15:52:59] [main] INFO  scripts.LoginTest - Đang test với password: 123
+[2025-10-22 15:53:04] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-22 15:53:04] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-22 15:53:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:53:04] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:53:06] [main] INFO  scripts.LoginTest - Đang test với email: quanghuy@gmail.com
+[2025-10-22 15:53:06] [main] INFO  scripts.LoginTest - Đang test với password: abc2222
+[2025-10-22 15:53:10] [main] INFO  scripts.LoginTest - Kết quả thực tế
+[2025-10-22 15:53:10] [main] INFO  scripts.LoginTest - Test pass
+[2025-10-22 15:58:05] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[2025-10-22 15:58:06] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.78 (resolved driver for Chrome 141)
+[2025-10-22 15:58:06] [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe
+[2025-10-22 15:58:09] [main] INFO  scripts.BookingTest - 🔹 Running test with data: Email=blue2999@gmail.com, DiaDiem=Đà Lạt, Phong=Phòng mùa hè
+[2025-10-22 15:58:09] [main] INFO  scripts.BookingTest - ➡ Login với email: blue2999@gmail.com

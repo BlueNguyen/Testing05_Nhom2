@@ -94,6 +94,7 @@ public class RegisterPage {
         birthdayInput.sendKeys(futureDate);
         birthdayInput.sendKeys("\t");
     }
+
     // lấy thông báo lỗi từ ô birthday
     public String getBirthdayErrorMessage() {
         try {

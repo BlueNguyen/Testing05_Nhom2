@@ -3,6 +3,10 @@ package scripts;
 import base.BaseTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,11 +14,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pages.LoginPageBooking;
 import pages.booking.*;
-import pages.auth.LoginPage;
-import utils.ExcelReader;
 
+import java.io.FileInputStream;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BookingTest extends BaseTest {
 
@@ -23,10 +29,34 @@ public class BookingTest extends BaseTest {
     String filePath = "src/test/resources/BookingData.xlsx";
     String sheetName = "data1";
 
+
     @DataProvider(name = "BookingData")
     public Object[][] getBookingData() {
-        return ExcelReader.getData(filePath, sheetName);
+        List<Object[]> data = new ArrayList<>();
+
+        try (FileInputStream fis = new FileInputStream(filePath);
+             Workbook workbook = WorkbookFactory.create(fis)) {
+
+            Sheet sheet = workbook.getSheet(sheetName);
+
+            for (Row row : sheet) {
+                if (row.getRowNum() == 0) continue;
+
+                String email = row.getCell(1).getStringCellValue();
+                String password = row.getCell(2).getStringCellValue();
+                String location = row.getCell(3).getStringCellValue();
+                String room = row.getCell(4).getStringCellValue();
+
+                data.add(new Object[]{email, password, location, room});
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return data.toArray(new Object[0][]);
     }
+
 
     // ✅ Case 1: Login rồi booking
     @Test(dataProvider = "BookingData", priority = 1)
@@ -38,8 +68,8 @@ public class BookingTest extends BaseTest {
         // 🔑 Login
         logger.info("➡ Login với email: {}", email);
         bookingPage.openLoginModal();
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.logins(email, password);
+        LoginPageBooking loginPage = new LoginPageBooking(driver);
+        loginPage.login(email, password);
 
         // 🏠 Chọn địa điểm
         bookingPage.selectDiaDiem(diaDiem);
@@ -96,8 +126,8 @@ public class BookingTest extends BaseTest {
         CancelBookingPage cancelPage = new CancelBookingPage(driver);
 
         bookingPage.openLoginModal();
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.logins(email, password);
+        LoginPageBooking loginPage = new LoginPageBooking(driver);
+        loginPage.login(email, password);
 
         cancelPage.waitAndClickAvatarAgain();
         cancelPage.openDashboard();
@@ -116,8 +146,8 @@ public class BookingTest extends BaseTest {
         FavoritePage favoritePage = new FavoritePage(driver);
 
         bookingPage.openLoginModal();
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.logins(email, password);
+        LoginPageBooking loginPage = new LoginPageBooking(driver);
+        loginPage.login(email, password);
 
         favoritePage.openDashboard();
         favoritePage.clickFavorite(phong);
@@ -136,8 +166,8 @@ public class BookingTest extends BaseTest {
 
         // 🔑 Login
         bookingPage.openLoginModal();
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.logins(email, password);
+        LoginPageBooking loginPage = new LoginPageBooking(driver);
+        loginPage.login(email, password);
 
         // 🏠 Chọn địa điểm và phòng
         bookingPage.selectDiaDiem(diaDiem);
@@ -158,8 +188,8 @@ public class BookingTest extends BaseTest {
 
         // 🔑 Login
         bookingPage.openLoginModal();
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.logins(email, password);
+        LoginPageBooking loginPage = new LoginPageBooking(driver);
+        loginPage.login(email, password);
 
         // 🏠 Set cứng địa điểm và phòng
         diaDiem = "Cần Thơ";
@@ -182,7 +212,7 @@ public class BookingTest extends BaseTest {
         } catch (InterruptedException ignored) {}
 
         // 🔁 Quay lại trang chính bằng nút Home
-        By homeBtn = By.xpath("//a[normalize-space()='Home']");
+        By homeBtn = By.xpath("//a[normalize-space(🙁'Home']");
         WebElement home = new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(homeBtn));
         home.click();
@@ -224,7 +254,7 @@ public class BookingTest extends BaseTest {
         String password = "blue299";
         logger.info("➡ Đăng nhập với tài khoản: {}", email);
         bookingPage.openLoginModal();
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPageBooking loginPage = new LoginPageBooking(driver);
         loginPage.login(email, password);
 
         // 📋 Mở Dashboard
@@ -257,7 +287,7 @@ public class BookingTest extends BaseTest {
         String password = "blue299";
         logger.info("➡ Đăng nhập với tài khoản: {}", email);
         bookingPage.openLoginModal();
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPageBooking loginPage = new LoginPageBooking(driver);
         loginPage.login(email, password);
 
         PaymentPage paymentPage = new PaymentPage(driver);

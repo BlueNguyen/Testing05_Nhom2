@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4644470f-90a6-4083-aa4b-44b192d44ea4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/booking/LoginPageBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/Screenshot 2025-10-19 151549.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testDashboardAfterBooking_20251021_225750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testDashboardAfterBooking_20251021_230644.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testDashboardAfterBooking_20251021_232537.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testDashboardAfterBooking_20251021_232651.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testLoginAndSignout_20251019_151558.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooLong_20251009_223820.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooShort_20251009_223829.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPaymentGuestAndPriceLogic_20251021_230658.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testProfileUpdateFlow_20251019_150438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/BookingData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/BookingData.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,41 +32,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.BookingTest.executor": "Run",
-    "TestNG.BookingTest.testBookingRoomFromExcel.executor": "Run",
-    "TestNG.BookingTest.testBookingRoomWithoutLogin.executor": "Run",
-    "TestNG.BookingTest.testCancelBooking.executor": "Debug",
-    "TestNG.BookingTest.testChonNgayBooking.executor": "Run",
-    "TestNG.BookingTest.testDashboardAfterBooking.executor": "Run",
-    "TestNG.BookingTest.testTimKiemVaBookingLai.executor": "Run",
-    "TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml.executor": "Run",
-    "TestNG.LoginTest.loginTest.executor": "Run",
-    "TestNG.LoginTest.loginWithEnter.executor": "Run",
-    "TestNG.LoginTest.testPasswordTooLong.executor": "Run",
-    "TestNG.LoginTest.testPasswordTooShort.executor": "Run",
-    "TestNG.RegisterTest.registerWithEnter.executor": "Run",
-    "TestNG.RegisterTest.testRedirectedSuccessfully.executor": "Run",
-    "TestNG.RegisterTest.testSelectBirthdayFromCalendar.executor": "Run",
-    "TestNG.RegisterTest.testSelectFutureBirthday.executor": "Run",
-    "TestNG.RegisterTest.togglePassword.executor": "Run",
-    "TestNG.SignoutTest.testLoginAndSignout.executor": "Run",
-    "git-widget-placeholder": "huy__merge__cleanup",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/githuyb/Testing05_Nhom2/src/test/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.BookingTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testBookingRoomFromExcel.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testBookingRoomWithoutLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testCancelBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testChonNgayBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testDashboardAfterBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testTimKiemVaBookingLai.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginWithEnter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testPasswordTooLong.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testPasswordTooShort.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.registerWithEnter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.testRedirectedSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.testSelectBirthdayFromCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.testSelectFutureBirthday.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.togglePassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignoutTest.testLoginAndSignout.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;huy__merge__cleanup&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/OneDrive/Desktop/githuyb/Testing05_Nhom2/src/test/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\OneDrive\Desktop\githuyb\Testing05_Nhom2\src\test\resources" />
       <recent name="C:\Users\Admin\OneDrive\Desktop\githuyb\Testing05_Nhom2\src\test\java\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BookingTest.testCancelBooking">
+  <component name="RunManager" selected="TestNG.BookingTest.testBookingRoomFromExcel">
     <configuration name="BookingTest.testBookingRoomFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing05_Nhom2" />
       <extension name="coverage">
@@ -126,24 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest.testChonNgayBooking" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing05_Nhom2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
-      <option name="METHOD_NAME" value="testChonNgayBooking" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing05_Nhom2" />
       <extension name="coverage">
@@ -162,13 +139,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignoutTest.testLoginAndSignout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.SignoutTest" />
+      <option name="METHOD_NAME" value="testLoginAndSignout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BookingTest.testCancelBooking" />
-        <item itemvalue="TestNG.BookingTest.testChonNgayBooking" />
         <item itemvalue="TestNG.BookingTest.testBookingRoomFromExcel" />
-        <item itemvalue="TestNG.BookingTest.testBookingRoomWithoutLogin" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG.BookingTest.testBookingRoomWithoutLogin" />
+        <item itemvalue="TestNG.SignoutTest.testLoginAndSignout" />
+        <item itemvalue="TestNG.BookingTest.testCancelBooking" />
       </list>
     </recent_temporary>
   </component>
