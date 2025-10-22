@@ -62,4 +62,34 @@ public class ExcelReader {
             throw new RuntimeException("❌ Error reading Excel file: " + e.getMessage(), e);
         }
     }
+//public static Object[][] getData(String filePath, String sheetName) {
+//    try (FileInputStream fis = new FileInputStream(filePath);
+//         Workbook workbook = new XSSFWorkbook(fis)) {
+//
+//        Sheet sheet = workbook.getSheet(sheetName);
+//        if (sheet == null)
+//            throw new RuntimeException("❌ Sheet '" + sheetName + "' not found");
+//
+//        int rowCount = sheet.getPhysicalNumberOfRows();
+//        int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
+//
+//        // Bỏ cột đầu tiên (thường là ID), bắt đầu từ cột 1
+//        Object[][] data = new Object[rowCount - 1][colCount - 1];
+//        DataFormatter formatter = new DataFormatter();
+//
+//        for (int i = 1; i < rowCount; i++) {
+//            Row row = sheet.getRow(i);
+//            for (int j = 1; j < colCount; j++) { // bắt đầu từ cột 1
+//                Cell cell = (row != null) ? row.getCell(j) : null;
+//                data[i - 1][j - 1] = (cell != null) ? formatter.formatCellValue(cell).trim() : "";
+//            }
+//        }
+//
+//        return data;
+//
+//    } catch (IOException e) {
+//        throw new RuntimeException("❌ Error reading Excel file: " + e.getMessage(), e);
+//    }
+//}
+
 }
