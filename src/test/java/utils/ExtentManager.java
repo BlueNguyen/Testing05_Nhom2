@@ -11,6 +11,7 @@ public class ExtentManager {
     // Hàm khởi tạo ExtentReports instance
     public static ExtentReports createInstance(String reportFileName) {
         // Đường dẫn file HTML sẽ được tạo ra
+//        String reportPath = "./reports/ExtentReport.html";
         String reportPath = "./reports/" + reportFileName;
 
         // Tạo đối tượng ExtentSparkReporter, dùng để xuất ra file HTML
@@ -32,7 +33,7 @@ public class ExtentManager {
         extent.attachReporter(reporter);
 
         // Gắn thông tin phụ thêm vào report (hiển thị ở phần trên cùng)
-        extent.setSystemInfo("Tester", "Nguyễn Thị Hoài Hiếu");
+        extent.setSystemInfo("Tester", "Nguyễn Thị Bé Ngoan");
         extent.setSystemInfo("Environment", "Production");
 
         // Trả về đối tượng ExtentReports

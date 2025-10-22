@@ -4,33 +4,215 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0d6061-020a-4591-aa4e-7a3e3e1aecab" name="Changes" comment="" />
+    <list default="true" id="4644470f-90a6-4083-aa4b-44b192d44ea4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/BookingTests_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/BookingTests_Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/Screenshot 2025-10-19 151549.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/testLoginAndSignout_20251019_151558.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooLong_20251009_223820.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooShort_20251009_223829.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/screenshots/testProfileUpdateFlow_20251019_150438.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listener/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listener/ExtentReportListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/BaseBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/BaseBookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/BookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/BookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/CancelBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/CancelBookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/FavoritePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/FavoritePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/signout/SignoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/signout/SignoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/SignoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/SignoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="34QDSLmMAmA1BUgFFx3gNaYxcaB" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="34NVW13eqmQqOiQrluu7ZJfviDG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.BookingTest.testBookingRoomFromExcel.executor": "Run",
+    "TestNG.BookingTest.testCancelBooking.executor": "Run",
+    "TestNG.BookingTest.testChonNgayBooking.executor": "Run",
+    "TestNG.BookingTest.testDashboardAfterBooking.executor": "Run",
+    "TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml.executor": "Run",
+    "TestNG.LoginTest.loginTest.executor": "Run",
+    "TestNG.LoginTest.loginWithEnter.executor": "Run",
+    "TestNG.LoginTest.testPasswordTooLong.executor": "Run",
+    "TestNG.ProfileTest.testProfileUpdateFlow.executor": "Run",
+    "TestNG.RegisterTest.registerWithEnter.executor": "Run",
+    "TestNG.RegisterTest.testRedirectedSuccessfully.executor": "Run",
+    "TestNG.RegisterTest.testSelectBirthdayFromCalendar.executor": "Run",
+    "TestNG.RegisterTest.togglePassword.executor": "Run",
+    "git-widget-placeholder": "Ngoan__Booking"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.ProfileTest.testProfileUpdateFlow">
+    <configuration name="BookingTest.testBookingRoomFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
+      <option name="METHOD_NAME" value="testBookingRoomFromExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.testCancelBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
+      <option name="METHOD_NAME" value="testCancelBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileTest.testProfileUpdateFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.ProfileTest" />
+      <option name="METHOD_NAME" value="testProfileUpdateFlow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProfileTest.testProfileUpdateFlow" />
+        <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG.BookingTest.testBookingRoomFromExcel" />
+        <item itemvalue="TestNG.BookingTest.testCancelBooking" />
+        <item itemvalue="TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa0d6061-020a-4591-aa4e-7a3e3e1aecab" name="Changes" comment="" />
-      <created>1761136900628</created>
+      <changelist id="4644470f-90a6-4083-aa4b-44b192d44ea4" name="Changes" comment="" />
+      <created>1761054045800</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1761136900628</updated>
+      <updated>1761054045800</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/LoginTest.java</url>
+          <line>83</line>
+          <properties class="scripts.LoginTest" method="testPasswordTooLong">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java</url>
+          <line>123</line>
+          <properties class="scripts.RegisterTest" method="registerWithEnter">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

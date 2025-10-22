@@ -1,15 +1,12 @@
-package pages;
+package pages.booking;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class LoginPage {
+public class LoginPageBooking {
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -17,7 +14,7 @@ public class LoginPage {
     private By passwordField = By.id("password");
     private By loginBtnModal = By.xpath("//button[@type='submit' and normalize-space()='Đăng nhập']");
 
-    public LoginPage(WebDriver driver) {
+    public LoginPageBooking(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
