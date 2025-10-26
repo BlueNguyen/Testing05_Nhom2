@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4644470f-90a6-4083-aa4b-44b192d44ea4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/BookingTests_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/BookingTests_Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/Screenshot 2025-10-19 151549.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testLoginAndSignout_20251019_151558.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooLong_20251009_223820.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testPasswordTooShort_20251009_223829.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/testProfileUpdateFlow_20251019_150438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/listener/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listener/ExtentReportListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/auth/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/BaseBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/BaseBookingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/BookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/BookingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/CancelBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/CancelBookingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/FavoritePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/FavoritePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/booking/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/booking/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/signout/SignoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/signout/SignoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/BookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/SignoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/SignoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,28 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.BookingTest.testBookingRoomFromExcel.executor": "Run",
-    "TestNG.BookingTest.testCancelBooking.executor": "Run",
-    "TestNG.BookingTest.testChonNgayBooking.executor": "Run",
-    "TestNG.BookingTest.testDashboardAfterBooking.executor": "Run",
-    "TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml.executor": "Run",
-    "TestNG.LoginTest.loginTest.executor": "Run",
-    "TestNG.LoginTest.loginWithEnter.executor": "Run",
-    "TestNG.LoginTest.testPasswordTooLong.executor": "Run",
-    "TestNG.ProfileTest.testProfileUpdateFlow.executor": "Run",
-    "TestNG.RegisterTest.registerWithEnter.executor": "Run",
-    "TestNG.RegisterTest.testRedirectedSuccessfully.executor": "Run",
-    "TestNG.RegisterTest.testSelectBirthdayFromCalendar.executor": "Run",
-    "TestNG.RegisterTest.togglePassword.executor": "Run",
-    "git-widget-placeholder": "Ngoan__Booking"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.BookingTest.testBookingRoomFromExcel.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testBookingRoomWithGuestLimit.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testCancelBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testChonNgayBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testDashboardAfterBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingTest.testGuestCountLimits.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/JAVA project/Testing05_Nhom2/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.loginWithEnter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testPasswordTooLong.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProfileTest.testProfileUpdateFlow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.registerWithEnter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.testRedirectedSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.testSelectBirthdayFromCalendar.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterTest.togglePassword.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.ProfileTest.testProfileUpdateFlow">
+}</component>
+  <component name="RunManager" selected="TestNG.D:/JAVA project/Testing05_Nhom2/testng.xml">
     <configuration name="BookingTest.testBookingRoomFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing05_Nhom2" />
       <extension name="coverage">
@@ -107,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest.testCancelBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.testBookingRoomWithGuestLimit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing05_Nhom2" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
       <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
-      <option name="METHOD_NAME" value="testCancelBooking" />
+      <option name="METHOD_NAME" value="testBookingRoomWithGuestLimit" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,17 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testing05_Nhom2" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.testGuestCountLimits" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing05_Nhom2" />
       <extension name="coverage">
         <pattern>
@@ -144,9 +104,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.LoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.BookingTest" />
+      <option name="METHOD_NAME" value="testGuestCountLimits" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/JAVA project/Testing05_Nhom2/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing05_Nhom2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -173,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProfileTest.testProfileUpdateFlow" />
-        <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG.D:/JAVA project/Testing05_Nhom2/testng.xml" />
+        <item itemvalue="TestNG.BookingTest.testGuestCountLimits" />
+        <item itemvalue="TestNG.BookingTest.testBookingRoomWithGuestLimit" />
         <item itemvalue="TestNG.BookingTest.testBookingRoomFromExcel" />
-        <item itemvalue="TestNG.BookingTest.testCancelBooking" />
-        <item itemvalue="TestNG.C:/Users/Admin/OneDrive/Desktop/CapStone/Testing05_Nhom2/testng.xml" />
+        <item itemvalue="TestNG.ProfileTest.testProfileUpdateFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +160,17 @@
       <updated>1761054045800</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

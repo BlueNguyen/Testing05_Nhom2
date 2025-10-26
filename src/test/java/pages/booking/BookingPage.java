@@ -4,6 +4,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import utils.ScreenshotUtil;
+
 import java.time.Duration;
 
 public class BookingPage {
@@ -267,6 +269,132 @@ public class BookingPage {
             throw new RuntimeException("Không thể thực hiện clickSearch()", e);
         }
     }
+
+
+    // --- 🔢 Chọn số lượng khách và kiểm tra thông báo giới hạn ---
+    private By guestDropdown = By.xpath("//div[contains(@class,'guest-select') or contains(@class,'ant-select')]");
+    private By guestOption = By.xpath("//div[contains(@class,'ant-select-item-option-content') and text()='%s']");
+    private By guestWarning = By.xpath("//*[contains(text(),'số khách tối đa') or contains(text(),'không thể thêm khách')]");
+
+    public void selectGuestCount(String soKhach) {
+        try {
+            logger.info("👥 Bắt đầu chọn số lượng khách: {}", soKhach);
+            WebElement guestDropdownEl = wait.until(ExpectedConditions.elementToBeClickable(guestDropdown));
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", guestDropdownEl);
+            guestDropdownEl.click();
+
+            // chọn số khách mong muốn
+            By option = By.xpath(String.format("//div[contains(@class,'ant-select-item-option-content') and normalize-space()='%s']", soKhach));
+            WebElement optionEl = wait.until(ExpectedConditions.elementToBeClickable(option));
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", optionEl);
+            logger.info("✅ Đã chọn số khách: {}", soKhach);
+
+            // Kiểm tra cảnh báo số khách tối đa
+            try {
+                WebElement warning = new WebDriverWait(driver, Duration.ofSeconds(3))
+                        .until(ExpectedConditions.visibilityOfElementLocated(guestWarning));
+                logger.warn("⚠️ Cảnh báo hiển thị: {}", warning.getText());
+            } catch (TimeoutException te) {
+                logger.info("✅ Không có cảnh báo số khách tối đa");
+            }
+
+        } catch (Exception e) {
+            logger.error("❌ Lỗi khi chọn số khách: {}", e.getMessage());
+            throw new RuntimeException("Không thể chọn số khách " + soKhach, e);
+        }
+    }
+
+    public boolean isGuestWarningDisplayed() {
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(guestWarning));
+            return true;
+        } catch (TimeoutException e) {
+            return false;
+        }
+    }
+
+    // --- Click nút Tìm kiếm mà không chọn ngày ---
+    public void clickSearchWithoutDate() {
+        try {
+            logger.info("🔍 Click nút Tìm kiếm mà không chọn ngày");
+            By searchBtn = By.xpath("//div[contains(@class,'bg-main') and contains(@class,'justify-center')]");
+            WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(searchBtn));
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", btn);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
+            logger.info("✅ Đã click nút Tìm kiếm mà không chọn ngày");
+        } catch (Exception e) {
+            logger.error("❌ Lỗi khi click nút Tìm kiếm không chọn ngày: {}", e.getMessage());
+            throw new RuntimeException("Không thể clickSearchWithoutDate()", e);
+        }
+    }
+
+    // Nút tăng khách
+    private By increaseGuestBtn = By.xpath("//div[contains(.,'Khách')]//button[.//div[text()='+']]");
+
+    // Nút giảm khách
+    private By decreaseGuestBtn = By.xpath("//div[contains(.,'Khách')]//button[.//div[text()='-']]");
+
+    // --- Click nút tăng khách ---
+    public void clickIncreaseGuest() {
+        try {
+            WebElement plus = wait.until(ExpectedConditions.elementToBeClickable(increaseGuestBtn));
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", plus);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", plus);
+            logger.info("✅ Click nút + (tăng khách)");
+        } catch (Exception e) {
+            throw new RuntimeException("Không click được nút + (tăng khách)", e);
+        }
+    }
+
+    public void openGuestSelector() {
+        WebElement guestElement = wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//div[contains(@class,'guest-selector') or contains(.,'Khách')]")
+        ));
+        guestElement.click();
+        logger.info("✅ Mở lại pop-up chọn số khách");
+    }
+
+
+    public void clickDecreaseGuest() {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+            WebElement minusButton = wait.until(ExpectedConditions.elementToBeClickable(
+                    By.xpath("//div[contains(@class,'justify-between') and contains(@class,'items-center')]//button[contains(@class,'rounded-full')][1]")
+            ));
+
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", minusButton);
+            Thread.sleep(300);
+
+            try {
+                minusButton.click();
+                logger.info("✅ Click nút - (giảm khách)");
+            } catch (ElementClickInterceptedException e) {
+                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", minusButton);
+                logger.info("✅ Click nút - (giảm khách) bằng JS");
+            }
+
+        } catch (Exception e) {
+            logger.error("❌ Không click được nút - (giảm khách): {}", e.getMessage());
+            ScreenshotUtil.captureScreenshot(driver, "clickDecreaseGuest");
+            throw new RuntimeException("Không click được nút - (giảm khách)");
+        }
+    }
+
+
+
+
+    // --- Kiểm tra cảnh báo số khách tối thiểu 1 khách ---
+    private By guestMinWarning = By.xpath("//*[contains(text(),'Phải có tối thiểu 1 khách')]");
+    public boolean isGuestMinWarningDisplayed() {
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(guestMinWarning));
+            return true;
+        } catch (TimeoutException e) {
+            return false;
+        }
+    }
+
 
 
 }
