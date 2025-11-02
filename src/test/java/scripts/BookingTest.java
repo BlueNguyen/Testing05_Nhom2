@@ -143,8 +143,8 @@ public class BookingTest extends BaseTest {
         BookingPage bookingPage = new BookingPage(driver);
 
         // 🔑 Đăng nhập bằng tài khoản cố định
-        String email = "blue299@gmail.com";
-        String password = "blue299";
+        String email = "blueair@gmail.com";
+        String password = "blue1234";
         logger.info("➡ Đăng nhập với tài khoản: {}", email);
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);
@@ -170,8 +170,8 @@ public class BookingTest extends BaseTest {
 
         BookingPage bookingPage = new BookingPage(driver);
 
-        String email = "blue299@gmail.com";
-        String password = "blue299";
+        String email = "blueair@gmail.com";
+        String password = "blue1234";
         String diaDiem = "Phú Quốc";
         String phong = "Fisherman homestay";
 
@@ -210,8 +210,8 @@ public class BookingTest extends BaseTest {
     // 🧩 Case 6: Xác định trạng thái đặt phòng, loại A  "Đang chờ xác nhận từ chủ nhà", loại B  "Đặt thành công"
     @Test(priority = 6, description = "Xác định trạng thái đặt phòng cho loại A và B")
     public void testBookingStatusForDifferentRoomTypes() {
-        String email = "blue299@gmail.com";
-        String password = "blue299";
+        String email = "blueair@gmail.com";
+        String password = "blue1234";
 
         BookingPage bookingPage = new BookingPage(driver);
         DashboardPage dashboardPage = new DashboardPage(driver);
@@ -303,8 +303,8 @@ public class BookingTest extends BaseTest {
         BookingPage bookingPage = new BookingPage(driver);
 
         // 🔑 Đăng nhập bằng tài khoản cố định
-        String email = "blue299@gmail.com";
-        String password = "blue299";
+        String email = "blueair@gmail.com";
+        String password = "blue1234";
         logger.info("➡ Đăng nhập với tài khoản: {}", email);
         bookingPage.openLoginModal();
         LoginPage loginPage = new LoginPage(driver);

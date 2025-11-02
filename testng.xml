@@ -8,13 +8,6 @@
         <listener class-name="listener.ExtentReportListener"/>
     </listeners>
 
-    <!-- Test đăng nhập -->
-    <test name="Login Tests">
-        <classes>
-            <class name="scripts.LoginTest"/>
-        </classes>
-    </test>
-
     <!-- Test đăng ký -->
     <test name="Register Tests">
         <classes>
@@ -22,10 +15,24 @@
         </classes>
     </test>
 
+    <!-- Test đăng nhập -->
+    <test name="Login Tests">
+        <classes>
+            <class name="scripts.LoginTest"/>
+        </classes>
+    </test>
+
     <!-- Test đặt phòng -->
     <test name="Booking Tests">
         <classes>
             <class name="scripts.BookingTest"/>
+        </classes>
+    </test>
+
+    <!-- Test profile -->
+    <test name="Profile Tests">
+        <classes>
+            <class name="scripts.ProfileTest"/>
         </classes>
     </test>
 

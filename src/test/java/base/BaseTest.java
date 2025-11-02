@@ -29,8 +29,8 @@ public class BaseTest {
             ScreenshotUtil.captureScreenshot(driver, testName);
         }
 
-//        if (driver != null) {
-//            driver.quit();
-//        }
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
